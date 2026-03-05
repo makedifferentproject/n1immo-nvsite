@@ -1,0 +1,3009 @@
+# Translation of Plugins - Reviews and Rating – Google Reviews - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Reviews and Rating – Google Reviews - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-09-23 11:11:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Reviews and Rating – Google Reviews - Stable (latest release)\n"
+
+#: templates/settings.php:433
+msgid "Name"
+msgstr "Name"
+
+#: templates/settings.php:530
+msgid "Local Images"
+msgstr "Lokale Bilder"
+
+#: templates/settings.php:1607 templates/settings.php:1657
+msgid "Rate Us"
+msgstr "Bewerte uns"
+
+#: templates/settings.php:1478 templates/settings.php:1560
+msgid "Roles"
+msgstr "Rollen"
+
+#. translators: %u: refers rating number from 1 to 5
+#: templates/settings.php:1394 templates/settings.php:1404
+#: templates/settings.php:1414 templates/settings.php:1424
+#: templates/settings.php:1434
+msgid "%u star"
+msgid_plural "%u stars"
+msgstr[0] "%u Stern"
+msgstr[1] "%u Sterne"
+
+#: templates/settings.php:1583
+msgid "Reset administrator notifications."
+msgstr "Administrator-Benachrichtigungen zurücksetzen."
+
+#: templates/settings.php:556
+msgid "Examples"
+msgstr "Beispiele"
+
+#: templates/settings.php:17 templates/settings.php:41
+msgid "General"
+msgstr "Allgemein"
+
+#: index.php:7010
+msgid "I’ve already left a review"
+msgstr "Ich habe bereits eine Rezension hinterlassen"
+
+#. translators: example two character language codes, lowercase, start with
+#. local language
+#: templates/settings.php:740
+msgid "en, fr, de, …"
+msgstr "en, fr, de, …"
+
+#: index.php:1053
+msgid "Google Reviews"
+msgstr "Google-Rezensionen"
+
+#: templates/settings.php:1006
+msgid "Enable either eager or lazy loading for all linked images."
+msgstr "Aktiviere entweder eager oder lazy loading für alle verlinkten Bilder."
+
+#. translators: use local language version at php.net if available
+#: templates/settings.php:941
+msgid "Format review submission dates using either the <a href=\"https://www.php.net/manual/en/datetime.format.php\" class=\"components-external-link\" target=\"_blank\">PHP date</a>, relative text or hide this entirely. Imported review dates will be an approximation."
+msgstr "Formatiere das Datum der Rezensionseinreichung entweder mit dem <a href=\"https://www.php.net/manual/de/datetime.format.php\" class=\"components-external-link\" target=\"_blank\">PHP-Datum</a>, mit relativem Text oder blende es ganz aus. Importierte Rezensionsdaten sind Näherungswerte."
+
+#. translators: %s: bookmark for reviews
+#: templates/settings.php:723
+msgid "Show an individual review or set of reviews by their ID (see <a href=\"%s\">Reviews</a>); order is preserved; use a comma separated list for multiple IDs."
+msgstr "Zeigt eine einzelne Rezension oder eine Reihe von Rezensionen nach ihrer ID an (siehe <a href=\"%s\">Rezensionen</a>); die Reihenfolge bleibt erhalten; verwende eine durch Komma getrennte Liste für mehrere IDs."
+
+#. translators: %s: bookmark for limit parameter
+#: templates/settings.php:714
+msgid "Enable a review carousel. There must be two or more reviews with the view number always less than the <a href=\"%s\">limit</a>."
+msgstr "Aktiviere ein Bewertungskarussell. Es müssen zwei oder mehr Bewertungen vorhanden sein, wobei die Anzahl der Ansichten immer unter dem <a href=\"%s\">Limit</a> liegt."
+
+#: templates/settings.php:97
+msgid "No Language Preference"
+msgstr "Keine Sprachpräferenz"
+
+#. translators: %s: a URL for a visual guide
+#: templates/settings.php:72 templates/settings.php:417
+msgid "Would you follow this better with diagrams? Check out our <a href=\"%s\" class=\"components-external-link\" target=\"_blank\">visual guide</a>."
+msgstr "Würdest du dies lieber mit Diagrammen nachvollziehen? Sieh dir unseren <a href=\"%s\" class=\"components-external-link\" target=\"_blank\">visuellen Leitfaden</a> an."
+
+#. translators: 1: URL of Google Developer Console, 2: URL of Place API, 3: URL
+#. of Google Developer Console, 4: IP of web server, 5: URL for Google billing
+#. account
+#: templates/settings.php:59 templates/settings.php:404
+msgid ""
+"Create a new project or open an existing project in <a href=\"%1$s\" class=\"components-external-link\" target=\"_blank\">Google Developer’s Console</a>\n"
+"Search for <a href=\"%2$s\" class=\"components-external-link\" target=\"_blank\">Places API</a> and click the button to enable this API in your account\n"
+"In <a href=\"%3$s\" class=\"components-external-link\" target=\"_blank\">Credentials</a>, click the button: “+ Create Credentials”\n"
+"Select “API Key” from the options\n"
+"Once this key is created, click “Close”\n"
+"Select your newly created API Key\n"
+"Under “Application restrictions”, set this to: “IP addresses” and “Add an item” with your web server’s IP: <span class=\"highlight\">%4$s</span>\n"
+"Under “API restrictions”, select “Restrict Key”, select just “Places API” from the list of options and click “OK”\n"
+"Click “Save” to set the restrictions\n"
+"Copy this new API Key to this plugin’s settings\n"
+"Finally for regular requests, please <a href=\"%5$s\" class=\"components-external-link\" target=\"_blank\">enable billing</a> for your project to receive your <em>substantial and free</em> API request allocation"
+msgstr ""
+"Erstelle ein neues Projekt oder öffne ein bestehendes Projekt in <a href=\"%1$s\" class=\"components-external-link\" target=\"_blank\">Google Developer Console</a>\n"
+"Suche nach der <a href=\"%2$s\" class=\"components-external-link\" target=\"_blank\">Places API</a> und klicke auf die Schaltfläche, um diese API in deinem Konto zu aktivieren\n"
+"Klicke in <a href=\"%3$s\" class=\"components-external-link\" target=\"_blank\">Anmeldedaten</a> auf die Schaltfläche: \"+ Anmeldedaten erstellen\"\n"
+"Wähle \"API-Schlüssel\" aus den Optionen\n"
+"Sobald dieser Schlüssel erstellt wurde, klicke auf \"Schließen\".\n"
+"Wähle deinen neu erstellten API-Schlüssel aus\n"
+"Unter \"Beschränkungen\" setze diese auf: \"IP-Adressen\" und \"Eintrag hinzufügen\" mit der IP deines Webservers: <span class=\"highlight\">%4$s</span>\n"
+"Kopiere diesen neuen API-Schlüssel in die Einstellungen dieses Plugins\n"
+"Für regelmäßige Anfragen aktiviere bitte die <a href=\"%5$s\" class=\"components-external-link\" target=\"_blank\">Abrechnung</a> für dein Projekt, um deine <em>kostenlosen</em> API-Anfragen zu erhalten"
+
+#: index.php:679
+msgid "Review Character Count Descending"
+msgstr "Zeichenanzahl der Rezension absteigend"
+
+#: index.php:677
+msgid "Review Character Count Ascending"
+msgstr "Zeichenanzahl der Rezension aufsteigend"
+
+#: index.php:675
+msgid "Review Word Count Descending"
+msgstr "Wortanzahl der Rezension absteigend"
+
+#: index.php:673
+msgid "Review Word Count Ascending"
+msgstr "Wortanzahl der Rezension aufsteigend"
+
+#: templates/settings.php:907
+msgid "Apply basic formatting to the review text such as replacing newlines with punctuation and space."
+msgstr "Wende grundlegende Formatierungen auf den Rezensionstext an, z. B. das Ersetzen von Zeilenumbrüchen durch Satzzeichen und Leerzeichen."
+
+#: templates/settings.php:990
+msgid "Override the default “write a review” URL to one of your own choosing."
+msgstr "Überschreibe die Standard-URL für das Schreiben einer Bewertung mit einer URL deiner Wahl."
+
+#: templates/settings.php:983 templates/settings.php:991
+msgid "Any valid URL"
+msgstr "Jede gültige URL"
+
+#: templates/settings.php:982
+msgid "Override the default “read reviews” URL to one of your own choosing."
+msgstr "Überschreibe die Standard-URL \"Bewertungen lesen\" mit einer URL deiner Wahl."
+
+#. translators: 1: the English class name number two, 2: the English class name
+#. number three, 3: the English class name number four, 4: the English class
+#. name number five, 5: the English class name number six
+#: templates/settings.php:1216
+msgid "Place reviews into multiple columns; requires an accompanying class: %1$s, %2$s, %3$s, %4$s or %5$s."
+msgstr "Platziere Bewertungen in mehrere Spalten; erfordert eine zugehörige Klasse: %1$s, %2$s, %3$s, %4$s oder %5$s."
+
+#: templates/widget.php:35
+msgid "Carousel View:"
+msgstr "Karussell-Ansicht:"
+
+#: widget.php:228
+msgid "Centered, Dark Background, Tiled"
+msgstr "Zentriert, dunkler Hintergrund, gekachelt"
+
+#: widget.php:229
+msgid "Centered, Dark Background, Tiled with Fonts"
+msgstr "Zentriert, dunkler Hintergrund, gekachelt mit Schriftarten"
+
+#: widget.php:212
+msgid "Centered, Light Background, Tiled"
+msgstr "Zentriert, heller Hintergrund, gekachelt"
+
+#: widget.php:213
+msgid "Centered, Light Background, Tiled with Fonts"
+msgstr "Zentriert, heller Hintergrund, gekachelt mit Schriftarten"
+
+#: widget.php:252
+msgid "Centered, Light, Bubble Filled, Tiled"
+msgstr "Zentriert, hell, Blase gefüllt, gekachelt"
+
+#: widget.php:253
+msgid "Centered, Light, Bubble Filled, Tiled with Fonts"
+msgstr "Zentriert, hell, Blase gefüllt, gekachelt mit Schriftarten"
+
+#: widget.php:248
+msgid "Centered, Light, Bubble Outline, Tiled"
+msgstr "Zentriert, hell, Blasenumriss, gekachelt"
+
+#: widget.php:249
+msgid "Centered, Light, Bubble Outline, Tiled with Fonts"
+msgstr "Zentriert, hell, Blasenumriss, gekachelt mit Schriftarten"
+
+#: templates/settings.php:1546 templates/settings.php:1552
+msgid "Compressed"
+msgstr "Komprimiert"
+
+#: templates/settings.php:1538
+msgid "Custom Style Sheet"
+msgstr "Benutzerdefinierte Formatvorlage"
+
+#: widget.php:224
+msgid "Dark Background, Tiled"
+msgstr "Dunkler Hintergrund, gekachelt"
+
+#: widget.php:225
+msgid "Dark Background, Tiled with Fonts"
+msgstr "Dunkler Hintergrund, gekachelt mit Schriftarten"
+
+#: templates/widget.php:102
+msgid "Display avatar"
+msgstr "Avatar anzeigen"
+
+#: templates/widget.php:96
+msgid "Display vicinity"
+msgstr "Umgebung anzeigen"
+
+#. translators: 1: bookmark for view parameter, 2: parameter for carousel, 3:
+#. number/text used for infinite loop
+#: templates/settings.php:1050
+msgid "Interval time in seconds for each slide. Ensure carousel is active with <a href=\"%1$s\">%2$s</a> and either <a href=\"%3$s\">%4$s</a> or <a href=\"%5$s\">%6$s</a> set."
+msgstr "Intervallzeit in Sekunden für jedes Einzelbild. Stelle sicher, dass das Karussell mit <a href=\"%1$s\">%2$s</a> aktiv ist und entweder <a href=\"%3$s\">%4$s</a> oder <a href=\"%5$s\">%6$s</a> gesetzt sind."
+
+#: templates/settings.php:1549
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: templates/settings.php:1545 templates/settings.php:1551
+msgid "Legible"
+msgstr "Lesbar"
+
+#: widget.php:244
+msgid "Light Background, Bubble Filled, Tiled"
+msgstr "Heller Hintergrund, Blase gefüllt, gekachelt"
+
+#: widget.php:240
+msgid "Light Background, Bubble Outline, Tiled"
+msgstr "Heller Hintergrund, Blasenumriss, gekachelt"
+
+#: widget.php:208
+msgid "Light Background, Tiled"
+msgstr "Heller Hintergrund, gekachelt"
+
+#: widget.php:209
+msgid "Light Background, Tiled with Fonts"
+msgstr "Heller Hintergrund, gekachelt mit Schriftarten"
+
+#: widget.php:245
+msgid "Light, Bubble Filled, Tiled with Fonts"
+msgstr "Hell, Blase gefüllt, gekachelt mit Schriftarten"
+
+#: widget.php:241
+msgid "Light, Bubble Outline, Tiled with Fonts"
+msgstr "Hell, Blasenumriss, gekachelt mit Schriftarten"
+
+#. translators: meaning for carousel loop, infinitely, without stopping
+#: templates/widget.php:40
+msgid "Loop ∞"
+msgstr "Schleife ∞"
+
+#: widget.php:236
+msgid "Narrow, Centered, Dark Background, Tiled"
+msgstr "Schmal, zentriert, dunkler Hintergrund, gekachelt"
+
+#: widget.php:237
+msgid "Narrow, Centered, Dark Background, Tiled with Fonts"
+msgstr "Schmal, zentriert, dunkler Hintergrund, gekachelt mit Schriftarten"
+
+#: widget.php:220
+msgid "Narrow, Centered, Light Background, Tiled"
+msgstr "Schmal, zentriert, heller Hintergrund, gekachelt"
+
+#: widget.php:221
+msgid "Narrow, Centered, Light Background, Tiled with Fonts"
+msgstr "Schmal, zentriert, heller Hintergrund, gekachelt mit Schriftarten"
+
+#: widget.php:268
+msgid "Narrow, Centered, Light, Bubble Filled, Tiled"
+msgstr "Schmal, zentriert, hell, Blase gefüllt, gekachelt"
+
+#: widget.php:269
+msgid "Narrow, Centered, Light, Bubble Filled, Tiled with Fonts"
+msgstr "Schmal, zentriert, hell, Blase gefüllt, gekachelt mit Schriftarten"
+
+#: widget.php:264
+msgid "Narrow, Centered, Light, Bubble Outline, Tiled"
+msgstr "Schmal, zentriert, hell, Blasenumriss, gekachelt"
+
+#: widget.php:265
+msgid "Narrow, Centered, Light, Bubble Outline, Tiled with Fonts"
+msgstr "Schmal, zentriert, hell, Blasenumriss, gekachelt mit Schriftarten"
+
+#: widget.php:232
+msgid "Narrow, Dark Background, Tiled"
+msgstr "Schmal, dunkler Hintergrund, gekachelt"
+
+#: widget.php:233
+msgid "Narrow, Dark Background, Tiled with Fonts"
+msgstr "Schmal, dunkler Hintergrund, gekachelt mit Schriftarten"
+
+#: widget.php:216
+msgid "Narrow, Light Background, Tiled"
+msgstr "Schmal, heller Hintergrund, gekachelt"
+
+#: widget.php:217
+msgid "Narrow, Light Background, Tiled with Fonts"
+msgstr "Schmal, heller Hintergrund, gekachelt mit Schriftarten"
+
+#: widget.php:260
+msgid "Narrow, Light, Bubble Filled, Tiled"
+msgstr "Schmal, hell, Blase gefüllt, gekachelt"
+
+#: widget.php:261
+msgid "Narrow, Light, Bubble Filled, Tiled with Fonts"
+msgstr "Schmal, hell, Blase gefüllt, gekachelt mit Schriftarten"
+
+#: widget.php:256
+msgid "Narrow, Light, Bubble Outline, Tiled"
+msgstr "Schmal, hell, Blasenumriss, gekachelt"
+
+#: widget.php:257
+msgid "Narrow, Light, Bubble Outline, Tiled with Fonts"
+msgstr "Schmal, hell, Blasenumriss, gekachelt mit Schriftarten"
+
+#: templates/settings.php:1270
+msgid "Review text has a bubble appearance."
+msgstr "Der Rezensionstext erscheint als eine Sprechblase."
+
+#: templates/widget.php:43
+msgid "Seconds per slide"
+msgstr "Sekunden pro Bild"
+
+#: templates/settings.php:1338
+msgid "Set the star color to orange; used with plugin for versions: 1.x – 3.x."
+msgstr "Setzt die Farbe des Sterns auf Orange; wird mit dem Plugin für die Versionen: 1.x - 3.x verwendet."
+
+#: templates/settings.php:1240
+msgid "Set to five columns, must be used with columns class."
+msgstr "Auf fünf Spalten eingestellt, muss mit der Klasse columns verwendet werden."
+
+#: templates/settings.php:1246
+msgid "Set to six columns, must be used with columns class."
+msgstr "Auf sechs Spalten eingestellt, muss mit der Klasse columns verwendet werden."
+
+#: templates/settings.php:1306
+msgid "Space out the rating and submission dates in each review item."
+msgstr "Gib die Bewertung und das Einreichungsdatum zu jeder Rezension an."
+
+#: templates/settings.php:1543
+msgid "Style Sheet"
+msgstr "Formatvorlage"
+
+#: templates/settings.php:1477 templates/settings.php:1537
+msgid "Styles and Scripts"
+msgstr "Stile und Skripte"
+
+#. translators: 1: number/text used for infinite loop, 2: boolean value used
+#. for infinite loop, 3: bookmark for view parameter, 4: parameter for view, 5:
+#. bookmark for interval parameter, 6: parameter for interval
+#: templates/settings.php:1041
+msgid "Specify the number of complete loops to automatically play through a set of slides. Set to <span class=\"code\">%1$s</span> or <span class=\"code\">%2$s</span> for an infinite loop. Carousel must be active with both parameters set: <a href=\"%3$s\">%4$s</a> and <a href=\"%5$s\">%6$s</a>."
+msgstr "Gib die Anzahl der vollständigen Durchläufe an, die ein Satz von Einzelbildern automatisch abgespielt werden soll. Für eine Endlosschleife auf <span class=\"code\">%1$s</span> oder <span class=\"code\">%2$s</span> setzen. Für die Karussellfunktion müssen beide Parameter gesetzt sein: <a href=\"%3$s\">%4$s</a> und <a href=\"%5$s\">%6$s</a>."
+
+#: templates/settings.php:1356
+msgid "With a Carousel: set bullet to a diamond shape."
+msgstr "Bei einem Karussell: die Kugel wird diamantförmig angeordnet."
+
+#: templates/settings.php:1350
+msgid "With a Carousel: set bullet to a square shape with rounded edges."
+msgstr "Bei einem Karussell: die Kugel wird auf eine quadratische Form mit abgerundeten Kanten angeordnet."
+
+#: templates/settings.php:1344
+msgid "With a Carousel: set bullet to a square shape."
+msgstr "Bei einem Karussell: die Kugel wird quadratisch angeordnet."
+
+#. translators: 1: parameter value for switching author name in review
+#. listings, 2: parameter value for setting author details to appear inline in
+#. the review listings, 3: list of available elements
+#: templates/settings.php:1023
+msgid "Change the ordering within review item: review text may be set to appear at the top of each entry. Add <em>%1$s</em> to switch the author’s avatar and name with stars and date. Add <em>%2$s</em> to set the author name, stars and date inline. Individual elements can be set and ordered using a comma separated list (e.g. <em>%3$s</em>)."
+msgstr "Ändere die Reihenfolge der einzelnen Bewertungen - der Bewertungstext kann so eingestellt werden, dass er am Anfang eines jeden Eintrags erscheint. Füge <em>%1$s</em> hinzu, um den Avatar und den Namen des Autors mit Sternen und Datum zu versehen. Füge <em>%2$s</em> hinzu, um den Autorennamen, die Sterne und das Datum inline zu setzen. Einzelne Elemente können sortiert und mit einer kommagetrennten Liste (z. B. <em>%3$s</em>) eingefügt werden."
+
+#. translators: 1: parameter value for switching author name in review
+#. listings, 2: parameter value for setting author details to appear inline in
+#. the review listings
+#: templates/settings.php:958
+msgid "Disable some or all external links: <em>%1$s</em>, <em>%2$s</em> or <em>%3$s</em>; comma separated list accepted."
+msgstr "Einige oder alle Arten von externen Links deaktivieren: <em>%1$s</em>, <em>%2$s</em> oder <em>%3$s</em>; kommagetrennte Liste akzeptiert."
+
+#: templates/settings.php:916
+msgid "Any valid CSS value"
+msgstr "Jeder gültige CSS-Wert"
+
+#: index.php:1404
+msgid "Bubble Filled, Light Background"
+msgstr "Blase gefüllt, heller Hintergrund"
+
+#: index.php:1405
+msgid "Bubble Filled, Light Background with Fonts"
+msgstr "Blase gefüllt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1406
+msgid "Bubble Filled, Tiled, Light Background"
+msgstr "Blase gefüllt, gekachelt, heller Hintergrund"
+
+#: index.php:1407
+msgid "Bubble Filled, Tiled, Light Background with Fonts"
+msgstr "Blase gefüllt, gekachelt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1400
+msgid "Bubble Outline, Light Background"
+msgstr "Blasenumriss, heller Hintergrund"
+
+#: index.php:1401
+msgid "Bubble Outline, Light Background with Fonts"
+msgstr "Blasenumriss, heller Hintergrund mit Schriftarten"
+
+#: index.php:1402
+msgid "Bubble Outline, Tiled, Light Background"
+msgstr "Blasenumriss, gekachelt, heller Hintergrund"
+
+#: index.php:1403
+msgid "Bubble Outline, Tiled, Light Background with Fonts"
+msgstr "Blasenumriss, gekachelt, heller Hintergrund mit Schriftarten"
+
+#: templates/settings.php:183
+msgid "Carousel View"
+msgstr "Karussell-Ansicht"
+
+#: index.php:1412
+msgid "Centered, Bubble Filled, Light Background"
+msgstr "Zentriert, Blase gefüllt, heller Hintergrund"
+
+#: index.php:1413
+msgid "Centered, Bubble Filled, Light Background with Fonts"
+msgstr "Zentriert, Blase gefüllt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1414
+msgid "Centered, Bubble Filled, Tiled, Light Background"
+msgstr "Zentriert, Blase gefüllt, gekachelt, heller Hintergrund"
+
+#: index.php:1415
+msgid "Centered, Bubble Filled, Tiled, Light Background with Fonts"
+msgstr "Zentriert, Blase gefüllt, gekachelt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1408
+msgid "Centered, Bubble Outline, Light Background"
+msgstr "Zentriert, Blasenumriss, heller Hintergrund"
+
+#: index.php:1409
+msgid "Centered, Bubble Outline, Light Background with Fonts"
+msgstr "Zentriert, Blasenumriss, heller Hintergrund mit Schriftarten"
+
+#: index.php:1410
+msgid "Centered, Bubble Outline, Tiled, Light Background"
+msgstr "Zentriert, Blasenumriss, gekachelt, heller Hintergrund"
+
+#: index.php:1411
+msgid "Centered, Bubble Outline, Tiled, Light Background with Fonts"
+msgstr "Zentriert, Blasenumriss, gekachelt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1446 widget.php:284
+msgid "Centered, Dark, Bubble Filled, Tiled"
+msgstr "Zentriert, dunkel, Blase gefüllt, gekachelt"
+
+#: index.php:1447 widget.php:285
+msgid "Centered, Dark, Bubble Filled, Tiled with Fonts"
+msgstr "Zentriert, dunkel, Blase gefüllt, gekachelt mit Schriftarten"
+
+#: index.php:1442 widget.php:280
+msgid "Centered, Dark, Bubble Outline, Tiled"
+msgstr "Zentriert, dunkel, Blasenumriss, gekachelt"
+
+#: index.php:1443 widget.php:281
+msgid "Centered, Dark, Bubble Outline, Tiled with Fonts"
+msgstr "Zentriert, dunkel, Blasenumriss, gekachelt mit Schriftarten"
+
+#: index.php:1390
+msgid "Centered, Tiled, Dark Background"
+msgstr "Zentriert, gekachelt, dunkler Hintergrund"
+
+#: index.php:1391
+msgid "Centered, Tiled, Dark Background with Fonts"
+msgstr "Zentriert, gekachelt, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1374
+msgid "Centered, Tiled, Light Background"
+msgstr "Zentriert, gekachelt, heller Hintergrund"
+
+#: index.php:1375
+msgid "Centered, Tiled, Light Background with Fonts"
+msgstr "Zentriert, gekachelt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1438 widget.php:276
+msgid "Dark, Bubble Filled, Tiled"
+msgstr "Dunkel, Blase gefüllt, gekachelt"
+
+#: index.php:1439 widget.php:277
+msgid "Dark, Bubble Filled, Tiled with Fonts"
+msgstr "Dunkel, Blase gefüllt, gekachelt mit Schriftarten"
+
+#: index.php:1434 widget.php:272
+msgid "Dark, Bubble Outline, Tiled"
+msgstr "Dunkel, Blasenumriss, gekachelt"
+
+#: index.php:1435 widget.php:273
+msgid "Dark, Bubble Outline, Tiled with Fonts"
+msgstr "Dunkel, Blasenumriss, gekachelt mit Schriftarten"
+
+#: index.php:1606
+msgid "Four Columns, Bubble Filled, Centered, Dark Background"
+msgstr "Vier Spalten, Blase gefüllt, zentriert, dunkler Hintergrund"
+
+#: index.php:1618
+msgid "Four Columns, Bubble Filled, Centered, Dark Background with Fonts"
+msgstr "Vier Spalten, Blase gefüllt, zentriert, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1582
+msgid "Four Columns, Bubble Filled, Centered, Light Background"
+msgstr "Vier Spalten, Blase gefüllt, zentriert, heller Hintergrund"
+
+#: index.php:1594
+msgid "Four Columns, Bubble Filled, Centered, Light Background with Fonts"
+msgstr "Vier Spalten, Blase gefüllt, zentriert, heller Hintergrund mit Schriftarten"
+
+#: index.php:1600
+msgid "Four Columns, Bubble Filled, Dark Background"
+msgstr "Vier Spalten, Blase gefüllt, dunkler Hintergrund"
+
+#: index.php:1612
+msgid "Four Columns, Bubble Filled, Dark Background with Fonts"
+msgstr "Vier Spalten, Blase gefüllt, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1576
+msgid "Four Columns, Bubble Filled, Light Background"
+msgstr "Vier Spalten, Blase gefüllt, heller Hintergrund"
+
+#: index.php:1588
+msgid "Four Columns, Bubble Filled, Light Background with Fonts"
+msgstr "Vier Spalten, Blase gefüllt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1607
+msgid "Four Columns, Bubble Filled, Tiled, Centered, Dark Background"
+msgstr "Vier Spalten, Blase gefüllt, gekachelt, zentriert, dunkler Hintergrund"
+
+#: index.php:1619
+msgid "Four Columns, Bubble Filled, Tiled, Centered, Dark Background with Fonts"
+msgstr "Vier Spalten, Blase gefüllt, gekachelt, zentriert, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1583
+msgid "Four Columns, Bubble Filled, Tiled, Centered, Light Background"
+msgstr "Vier Spalten, Blase gefüllt, gekachelt, zentriert, heller Hintergrund"
+
+#: index.php:1595
+msgid "Four Columns, Bubble Filled, Tiled, Centered, Light Background with Fonts"
+msgstr "Vier Spalten, Blase gefüllt, gekachelt, zentriert, heller Hintergrund mit Schriftarten"
+
+#: index.php:1601
+msgid "Four Columns, Bubble Filled, Tiled, Dark Background"
+msgstr "Vier Spalten, Blase gefüllt, gekachelt, dunkler Hintergrund"
+
+#: index.php:1613
+msgid "Four Columns, Bubble Filled, Tiled, Dark Background with Fonts"
+msgstr "Vier Spalten, Blase gefüllt, gekachelt, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1577
+msgid "Four Columns, Bubble Filled, Tiled, Light Background"
+msgstr "Vier Spalten, Blase gefüllt, gekachelt, heller Hintergrund"
+
+#: index.php:1589
+msgid "Four Columns, Bubble Filled, Tiled, Light Background with Fonts"
+msgstr "Vier Spalten, Blase gefüllt, gekachelt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1604
+msgid "Four Columns, Bubble Outline, Centered, Dark Background"
+msgstr "Vier Spalten, Blasenumriss, zentriert, dunkler Hintergrund"
+
+#: index.php:1616
+msgid "Four Columns, Bubble Outline, Centered, Dark Background with Fonts"
+msgstr "Vier Spalten, Blasenumriss, zentriert, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1580
+msgid "Four Columns, Bubble Outline, Centered, Light Background"
+msgstr "Vier Spalten, Blasenumriss, zentriert, heller Hintergrund"
+
+#: index.php:1592
+msgid "Four Columns, Bubble Outline, Centered, Light Background with Fonts"
+msgstr "Vier Spalten, Blasenumriss, zentriert, heller Hintergrund mit Schriftarten"
+
+#: index.php:1598
+msgid "Four Columns, Bubble Outline, Dark Background"
+msgstr "Vier Spalten, Blasenumriss, dunkler Hintergrund"
+
+#: index.php:1610
+msgid "Four Columns, Bubble Outline, Dark Background with Fonts"
+msgstr "Vier Spalten, Blasenumriss, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1574
+msgid "Four Columns, Bubble Outline, Light Background"
+msgstr "Vier Spalten, Blasenumriss, heller Hintergrund"
+
+#: index.php:1586
+msgid "Four Columns, Bubble Outline, Light Background with Fonts"
+msgstr "Vier Spalten, Blasenumriss, heller Hintergrund mit Schriftarten"
+
+#: index.php:1605
+msgid "Four Columns, Bubble Outline, Tiled, Centered, Dark Background"
+msgstr "Vier Spalten, Blasenumriss, gekachelt, zentriert, dunkler Hintergrund"
+
+#: index.php:1617
+msgid "Four Columns, Bubble Outline, Tiled, Centered, Dark Background with Fonts"
+msgstr "Vier Spalten, Blasenumriss, gekachelt, zentriert, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1581
+msgid "Four Columns, Bubble Outline, Tiled, Centered, Light Background"
+msgstr "Vier Spalten, Blasenumriss, gekachelt, zentriert, heller Hintergrund"
+
+#: index.php:1593
+msgid "Four Columns, Bubble Outline, Tiled, Centered, Light Background with Fonts"
+msgstr "Vier Spalten, Blasenumriss, gekachelt, zentriert, heller Hintergrund mit Schriftarten"
+
+#: index.php:1599
+msgid "Four Columns, Bubble Outline, Tiled, Dark Background"
+msgstr "Vier Spalten, Blasenumriss, gekachelt, dunkler Hintergrund"
+
+#: index.php:1611
+msgid "Four Columns, Bubble Outline, Tiled, Dark Background with Fonts"
+msgstr "Vier Spalten, Blasenumriss, gekachelt, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1575
+msgid "Four Columns, Bubble Outline, Tiled, Light Background"
+msgstr "Vier Spalten, Blasenumriss, gekachelt, heller Hintergrund"
+
+#: index.php:1587
+msgid "Four Columns, Bubble Outline, Tiled, Light Background with Fonts"
+msgstr "Vier Spalten, Blasenumriss, gekachelt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1602
+msgid "Four Columns, Centered, Dark Background"
+msgstr "Vier Spalten, zentriert, dunkler Hintergrund"
+
+#: index.php:1614
+msgid "Four Columns, Centered, Dark Background with Fonts"
+msgstr "Vier Spalten, zentriert, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1603
+msgid "Four Columns, Centered, Dark Background, Tiled"
+msgstr "Vier Spalten, zentriert, dunkler Hintergrund, gekachelt"
+
+#: index.php:1615
+msgid "Four Columns, Centered, Dark Background, Tiled with Fonts"
+msgstr "Vier Spalten, zentriert, dunkler Hintergrund, gekachelt mit Schriftarten"
+
+#: index.php:1578
+msgid "Four Columns, Centered, Light Background"
+msgstr "Vier Spalten, zentriert, heller Hintergrund"
+
+#: index.php:1590
+msgid "Four Columns, Centered, Light Background with Fonts"
+msgstr "Vier Spalten, zentriert, heller Hintergrund mit Schriftarten"
+
+#: index.php:1579
+msgid "Four Columns, Centered, Light Background, Tiled"
+msgstr "Vier Spalten, zentriert, heller Hintergrund, gekachelt"
+
+#: index.php:1591
+msgid "Four Columns, Centered, Light Background, Tiled with Fonts"
+msgstr "Vier Spalten, zentriert, heller Hintergrund, gekachelt mit Schriftarten"
+
+#: index.php:1597
+msgid "Four Columns, Tiled, Dark Background"
+msgstr "Vier Spalten, gekachelt, dunkler Hintergrund"
+
+#: index.php:1609
+msgid "Four Columns, Tiled, Dark Background with Fonts"
+msgstr "Vier Spalten, gekachelt, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1573
+msgid "Four Columns, Tiled, Light Background"
+msgstr "Vier Säulen, gekachelt, heller Hintergrund"
+
+#: index.php:1585
+msgid "Four Columns, Tiled, Light Background with Fonts"
+msgstr "Vier Spalten, gekachelt, heller Hintergrund mit Schriftarten"
+
+#. translators: %s: URL for Shortcode Demonstration Website
+#: templates/settings.php:564
+msgid "Here is a selection of Shortcodes. You can find more Shortcode examples with their output in the <a href=\"%s\" class=\"components-external-link\" target=\"_blank\">demonstration website</a>."
+msgstr "Hier ist eine Auswahl von Shortcodes. Weitere Shortcode-Beispiele mit ihren Ausgaben findest du auf der <a href=\"%s\" class=\"components-external-link\" target=\"_blank\">Demo-Website</a>."
+
+#: templates/settings.php:188
+msgid "If set, will enable the carousel with a slide matching the number of reviews set in the view."
+msgstr "Wenn diese Option gesetzt ist, wird das Karussell mit einer Ansicht aktiviert, die der Anzahl der in der Übersicht eingestellten Bewertungen entspricht."
+
+#: index.php:1420
+msgid "Narrow, Bubble Filled, Light Background"
+msgstr "Schmal, Blase gefüllt, heller Hintergrund"
+
+#: index.php:1421
+msgid "Narrow, Bubble Filled, Light Background with Fonts"
+msgstr "Schmal, Blase gefüllt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1422
+msgid "Narrow, Bubble Filled, Tiled, Light Background"
+msgstr "Schmal, Blase gefüllt, gekachelt, heller Hintergrund"
+
+#: index.php:1423
+msgid "Narrow, Bubble Filled, Tiled, Light Background with Fonts"
+msgstr "Schmal, Blase gefüllt, gekachelt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1416
+msgid "Narrow, Bubble Outline, Light Background"
+msgstr "Schmal, Blasenumriss, heller Hintergrund"
+
+#: index.php:1417
+msgid "Narrow, Bubble Outline, Light Background with Fonts"
+msgstr "Schmal, Blasenumriss, heller Hintergrund mit Schriftarten"
+
+#: index.php:1418
+msgid "Narrow, Bubble Outline, Tiled, Light Background"
+msgstr "Schmal, Blasenumriss, gekachelt, heller Hintergrund"
+
+#: index.php:1419
+msgid "Narrow, Bubble Outline, Tiled, Light Background with Fonts"
+msgstr "Schmal, Blasenumriss, gekachelt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1428
+msgid "Narrow, Centered, Bubble Filled, Light Background"
+msgstr "Schmal, zentriert, Blase gefüllt, heller Hintergrund"
+
+#: index.php:1429
+msgid "Narrow, Centered, Bubble Filled, Light Background with Fonts"
+msgstr "Schmal, zentriert, Blase gefüllt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1430
+msgid "Narrow, Centered, Bubble Filled, Tiled, Light Background"
+msgstr "Schmal, zentriert, Blase gefüllt, gekachelt, heller Hintergrund"
+
+#: index.php:1431
+msgid "Narrow, Centered, Bubble Filled, Tiled, Light Background with Fonts"
+msgstr "Schmal, zentriert, Blase gefüllt, gekachelt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1424
+msgid "Narrow, Centered, Bubble Outline, Light Background"
+msgstr "Schmal, zentriert, Blasenumriss, heller Hintergrund"
+
+#: index.php:1425
+msgid "Narrow, Centered, Bubble Outline, Light Background with Fonts"
+msgstr "Schmal, zentriert, Blasenumriss, heller Hintergrund mit Schriftarten"
+
+#: index.php:1426
+msgid "Narrow, Centered, Bubble Outline, Tiled, Light Background"
+msgstr "Schmal, zentriert, Blasenumriss, gekachelt, heller Hintergrund"
+
+#: index.php:1427
+msgid "Narrow, Centered, Bubble Outline, Tiled, Light Background with Fonts"
+msgstr "Schmal, zentriert, Blasenumriss, gekachelt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1462 widget.php:300
+msgid "Narrow, Centered, Dark, Bubble Filled, Tiled"
+msgstr "Schmal, zentriert, dunkel, Blase gefüllt, gekachelt"
+
+#: index.php:1463 widget.php:301
+msgid "Narrow, Centered, Dark, Bubble Filled, Tiled with Fonts"
+msgstr "Schmal, zentriert, dunkel, Blase gefüllt, gekachelt mit Schriftarten"
+
+#: index.php:1458 widget.php:296
+msgid "Narrow, Centered, Dark, Bubble Outline, Tiled"
+msgstr "Schmal, zentriert, dunkel, Blasenumriss, gekachelt"
+
+#: index.php:1459 widget.php:297
+msgid "Narrow, Centered, Dark, Bubble Outline, Tiled with Fonts"
+msgstr "Schmal, zentriert, dunkel, Blasenumriss, gekachelt mit Schriftarten"
+
+#: index.php:1398
+msgid "Narrow, Centered, Tiled, Dark Background"
+msgstr "Schmal, zentriert, Blase gefüllt, gekachelt, dunkler Hintergrund"
+
+#: index.php:1399
+msgid "Narrow, Centered, Tiled, Dark Background with Fonts"
+msgstr "Schmal, zentriert, Blase gefüllt, gekachelt, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1382
+msgid "Narrow, Centered, Tiled, Light Background"
+msgstr "Schmal, zentriert, gekachelt, heller Hintergrund"
+
+#: index.php:1383
+msgid "Narrow, Centered, Tiled, Light Background with Fonts"
+msgstr "Schmal, zentriert, gekachelt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1454 widget.php:292
+msgid "Narrow, Dark, Bubble Filled, Tiled"
+msgstr "Schmal, dunkel, Blase gefüllt, gekachelt"
+
+#: index.php:1455 widget.php:293
+msgid "Narrow, Dark, Bubble Filled, Tiled with Fonts"
+msgstr "Schmal, dunkel, Blase gefüllt, gekachelt mit Schriftarten"
+
+#: index.php:1450 widget.php:288
+msgid "Narrow, Dark, Bubble Outline, Tiled"
+msgstr "Schmal, dunkel, Blasenumriss, gekachelt"
+
+#: index.php:1451 widget.php:289
+msgid "Narrow, Dark, Bubble Outline, Tiled with Fonts"
+msgstr "Schmal, dunkel, Blasenumriss, gekachelt mit Schriftarten"
+
+#: index.php:1394
+msgid "Narrow, Tiled, Dark Background"
+msgstr "Schmal, gekachelt, dunkler Hintergrund"
+
+#: index.php:1395
+msgid "Narrow, Tiled, Dark Background with Fonts"
+msgstr "Schmal, gekachelt, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1378
+msgid "Narrow, Tiled, Light Background"
+msgstr "Schmal, gekachelt, heller Hintergrund"
+
+#: index.php:1379
+msgid "Narrow, Tiled, Light Background with Fonts"
+msgstr "Schmal, gekachelt, heller Hintergrund mit Schriftarten"
+
+#. translators: %s refers to the Settings URL and should remain untouched
+#: index.php:5583
+msgid "No reviews found, please check your <a href=\"%s\">settings</a>."
+msgstr "Keine Bewertungen gefunden, bitte überprüfe deine <a href=\"%s\">Einstellungen</a>."
+
+#: index.php:5620
+msgid "Rate Plugin"
+msgstr "Plugin bewerten"
+
+#: index.php:5591
+msgid "Recent Reviews"
+msgstr "Neueste Bewertungen"
+
+#: templates/settings.php:162
+msgid "Recommended for narrow spaces such as a sidebar."
+msgstr "Empfohlen für schmale Bereiche wie z. B. eine Seitenleiste."
+
+#: templates/settings.php:915
+msgid "Set a fixed height for all reviews text within the list of reviews. Longer reviews will have a vertical scroll. Units required."
+msgstr "Lege eine feste Höhe für den gesamten Bewertungstext in der Liste der Bewertungen fest. Längere Bewertungen werden vertikal gescrollt. Einheiten erforderlich."
+
+#: index.php:1558
+msgid "Three Columns, Bubble Filled, Centered, Dark Background"
+msgstr "Dreispaltig, Blase gefüllt, zentriert, dunkler Hintergrund"
+
+#: index.php:1570
+msgid "Three Columns, Bubble Filled, Centered, Dark Background with Fonts"
+msgstr "Dreispaltig, Blase gefüllt, zentriert, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1534
+msgid "Three Columns, Bubble Filled, Centered, Light Background"
+msgstr "Dreispaltig, Blase gefüllt, zentriert, heller Hintergrund"
+
+#: index.php:1546
+msgid "Three Columns, Bubble Filled, Centered, Light Background with Fonts"
+msgstr "Dreispaltig, Blase gefüllt, zentriert, heller Hintergrund mit Schriftarten"
+
+#: index.php:1552
+msgid "Three Columns, Bubble Filled, Dark Background"
+msgstr "Dreispaltig, Blase gefüllt, dunkler Hintergrund"
+
+#: index.php:1564
+msgid "Three Columns, Bubble Filled, Dark Background with Fonts"
+msgstr "Dreispaltig, Blase gefüllt, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1528
+msgid "Three Columns, Bubble Filled, Light Background"
+msgstr "Dreispaltig, Blase gefüllt, heller Hintergrund"
+
+#: index.php:1540
+msgid "Three Columns, Bubble Filled, Light Background with Fonts"
+msgstr "Dreispaltig, Blase gefüllt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1559
+msgid "Three Columns, Bubble Filled, Tiled, Centered, Dark Background"
+msgstr "Dreispaltig, Blase gefüllt, gekachelt, zentriert, dunkler Hintergrund"
+
+#: index.php:1571
+msgid "Three Columns, Bubble Filled, Tiled, Centered, Dark Background with Fonts"
+msgstr "Dreispaltig, Blase gefüllt, gekachelt, zentriert, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1535
+msgid "Three Columns, Bubble Filled, Tiled, Centered, Light Background"
+msgstr "Dreispaltig, Blase gefüllt, gekachelt, zentriert, heller Hintergrund"
+
+#: index.php:1547
+msgid "Three Columns, Bubble Filled, Tiled, Centered, Light Background with Fonts"
+msgstr "Dreispaltig, Blase gefüllt, gekachelt, zentriert, heller Hintergrund mit Schriftarten"
+
+#: index.php:1553
+msgid "Three Columns, Bubble Filled, Tiled, Dark Background"
+msgstr "Dreispaltig, Blase gefüllt, gekachelt, dunkler Hintergrund"
+
+#: index.php:1565
+msgid "Three Columns, Bubble Filled, Tiled, Dark Background with Fonts"
+msgstr "Dreispaltig, Blase gefüllt, gekachelt, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1529
+msgid "Three Columns, Bubble Filled, Tiled, Light Background"
+msgstr "Dreispaltig, Blase gefüllt, gekachelt, Heller Hintergrund"
+
+#: index.php:1541
+msgid "Three Columns, Bubble Filled, Tiled, Light Background with Fonts"
+msgstr "Dreispaltig, Blase gefüllt, gekachelt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1556
+msgid "Three Columns, Bubble Outline, Centered, Dark Background"
+msgstr "Dreispaltig, Blasenumriss, zentriert, dunkler Hintergrund"
+
+#: index.php:1568
+msgid "Three Columns, Bubble Outline, Centered, Dark Background with Fonts"
+msgstr "Dreispaltig, Blasenumriss, zentriert, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1532
+msgid "Three Columns, Bubble Outline, Centered, Light Background"
+msgstr "Dreispaltig, Blasenumriss, zentriert, heller Hintergrund"
+
+#: index.php:1544
+msgid "Three Columns, Bubble Outline, Centered, Light Background with Fonts"
+msgstr "Dreispaltig, Blasenumriss, zentriert, heller Hintergrund mit Schriftarten"
+
+#: index.php:1550
+msgid "Three Columns, Bubble Outline, Dark Background"
+msgstr "Dreispaltig, Blasenumriss, dunkler Hintergrund"
+
+#: index.php:1562
+msgid "Three Columns, Bubble Outline, Dark Background with Fonts"
+msgstr "Dreispaltig, Blasenumriss, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1526
+msgid "Three Columns, Bubble Outline, Light Background"
+msgstr "Dreispaltig, Blasenumriss, heller Hintergrund"
+
+#: index.php:1538
+msgid "Three Columns, Bubble Outline, Light Background with Fonts"
+msgstr "Dreispaltig, Blasenumriss, heller Hintergrund mit Schriftarten"
+
+#: index.php:1557
+msgid "Three Columns, Bubble Outline, Tiled, Centered, Dark Background"
+msgstr "Dreispaltig, Blasenumriss, gekachelt, zentriert, dunkler Hintergrund"
+
+#: index.php:1569
+msgid "Three Columns, Bubble Outline, Tiled, Centered, Dark Background with Fonts"
+msgstr "Dreispaltig, Blasenumriss, gekachelt, zentriert, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1533
+msgid "Three Columns, Bubble Outline, Tiled, Centered, Light Background"
+msgstr "Dreispaltig, Blasenumriss, gekachelt, zentriert, heller Hintergrund"
+
+#: index.php:1545
+msgid "Three Columns, Bubble Outline, Tiled, Centered, Light Background with Fonts"
+msgstr "Dreispaltig, Blasenumriss, gekachelt, zentriert, heller Hintergrund mit Schriftarten"
+
+#: index.php:1551
+msgid "Three Columns, Bubble Outline, Tiled, Dark Background"
+msgstr "Dreispaltig, Blasenumriss, gekachelt, dunkler Hintergrund"
+
+#: index.php:1563
+msgid "Three Columns, Bubble Outline, Tiled, Dark Background with Fonts"
+msgstr "Dreispaltig, Blasenumriss, gekachelt, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1527
+msgid "Three Columns, Bubble Outline, Tiled, Light Background"
+msgstr "Dreispaltig, Blasenumriss, gekachelt, heller Hintergrund"
+
+#: index.php:1539
+msgid "Three Columns, Bubble Outline, Tiled, Light Background with Fonts"
+msgstr "Dreispaltig, Blasenumriss, gekachelt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1554
+msgid "Three Columns, Centered, Dark Background"
+msgstr "Dreispaltig, zentriert, dunkler Hintergrund"
+
+#: index.php:1566
+msgid "Three Columns, Centered, Dark Background with Fonts"
+msgstr "Dreispaltig, zentriert, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1555
+msgid "Three Columns, Centered, Dark Background, Tiled"
+msgstr "Dreispaltig, zentriert, dunkler Hintergrund, gekachelt"
+
+#: index.php:1567
+msgid "Three Columns, Centered, Dark Background, Tiled with Fonts"
+msgstr "Dreispaltig, zentriert, dunkler Hintergrund, gekachelt mit Schriftarten"
+
+#: index.php:1530
+msgid "Three Columns, Centered, Light Background"
+msgstr "Dreispaltig, zentriert, heller Hintergrund"
+
+#: index.php:1542
+msgid "Three Columns, Centered, Light Background with Fonts"
+msgstr "Dreispaltig, zentriert, heller Hintergrund mit Schriftarten"
+
+#: index.php:1531
+msgid "Three Columns, Centered, Light Background, Tiled"
+msgstr "Dreispaltig, zentriert, heller Hintergrund, gekachelt"
+
+#: index.php:1543
+msgid "Three Columns, Centered, Light Background, Tiled with Fonts"
+msgstr "Dreispaltig, zentriert, heller Hintergrund, gekachelt mit Schriftarten"
+
+#: index.php:1549
+msgid "Three Columns, Tiled, Dark Background"
+msgstr "Dreispaltig, gekachelt, dunkler Hintergrund"
+
+#: index.php:1561
+msgid "Three Columns, Tiled, Dark Background with Fonts"
+msgstr "Dreispaltig, gekachelt, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1525
+msgid "Three Columns, Tiled, Light Background"
+msgstr "Dreispaltig, gekachelt, heller Hintergrund"
+
+#: index.php:1537
+msgid "Three Columns, Tiled, Light Background with Fonts"
+msgstr "Dreispaltig, gekachelt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1386
+msgid "Tiled, Dark Background"
+msgstr "Gekachelt, dunkler Hintergrund"
+
+#: index.php:1387
+msgid "Tiled, Dark Background with Fonts"
+msgstr "Gekachelt, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1370
+msgid "Tiled, Light Background"
+msgstr "Gekachelt, heller Hintergrund"
+
+#: index.php:1371
+msgid "Tiled, Light Background with Fonts"
+msgstr "Gekachelt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1510
+msgid "Two Columns, Bubble Filled, Centered, Dark Background"
+msgstr "Zweispaltig, Blase gefüllt, zentriert, dunkler Hintergrund"
+
+#: index.php:1522
+msgid "Two Columns, Bubble Filled, Centered, Dark Background with Fonts"
+msgstr "Zweispaltig, Blase gefüllt, zentriert, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1486
+msgid "Two Columns, Bubble Filled, Centered, Light Background"
+msgstr "Zweispaltig, Blase gefüllt, zentriert, heller Hintergrund"
+
+#: index.php:1498
+msgid "Two Columns, Bubble Filled, Centered, Light Background with Fonts"
+msgstr "Zweispaltig, Blase gefüllt, zentriert, heller Hintergrund mit Schriftarten"
+
+#: index.php:1504
+msgid "Two Columns, Bubble Filled, Dark Background"
+msgstr "Zweispaltig, Blase gefüllt, dunkler Hintergrund"
+
+#: index.php:1516
+msgid "Two Columns, Bubble Filled, Dark Background with Fonts"
+msgstr "Zweispaltig, Blase gefüllt, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1480
+msgid "Two Columns, Bubble Filled, Light Background"
+msgstr "Zweispaltig, Blase gefüllt, heller Hintergrund"
+
+#: index.php:1492
+msgid "Two Columns, Bubble Filled, Light Background with Fonts"
+msgstr "Zweispaltig, Blase gefüllt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1511
+msgid "Two Columns, Bubble Filled, Tiled, Centered, Dark Background"
+msgstr "Zweispaltig, Blase gefüllt, gekachelt, zentriert, dunkler Hintergrund"
+
+#: index.php:1523
+msgid "Two Columns, Bubble Filled, Tiled, Centered, Dark Background with Fonts"
+msgstr "Zweispaltig, Blase gefüllt, gekachelt, zentriert, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1487
+msgid "Two Columns, Bubble Filled, Tiled, Centered, Light Background"
+msgstr "Zweispaltig, Blase gefüllt, gekachelt, zentriert, heller Hintergrund"
+
+#: index.php:1499
+msgid "Two Columns, Bubble Filled, Tiled, Centered, Light Background with Fonts"
+msgstr "Zweispaltig, Blase gefüllt, gekachelt, zentriert, heller Hintergrund mit Schriftarten"
+
+#: index.php:1505
+msgid "Two Columns, Bubble Filled, Tiled, Dark Background"
+msgstr "Zweispaltig, Blase gefüllt, gekachelt, dunkler Hintergrund"
+
+#: index.php:1517
+msgid "Two Columns, Bubble Filled, Tiled, Dark Background with Fonts"
+msgstr "Zweispaltig, Blase gefüllt, gekachelt, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1481
+msgid "Two Columns, Bubble Filled, Tiled, Light Background"
+msgstr "Zweispaltig, Blase gefüllt, gekachelt, heller Hintergrund"
+
+#: index.php:1493
+msgid "Two Columns, Bubble Filled, Tiled, Light Background with Fonts"
+msgstr "Zweispaltig, Blase gefüllt, gekachelt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1508
+msgid "Two Columns, Bubble Outline, Centered, Dark Background"
+msgstr "Zweispaltig, Blasenumriss, zentriert, dunkler Hintergrund"
+
+#: index.php:1520
+msgid "Two Columns, Bubble Outline, Centered, Dark Background with Fonts"
+msgstr "Zweispaltig, Blasenumriss, zentriert, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1484
+msgid "Two Columns, Bubble Outline, Centered, Light Background"
+msgstr "Zweispaltig, Blasenumriss, zentriert, heller Hintergrund"
+
+#: index.php:1496
+msgid "Two Columns, Bubble Outline, Centered, Light Background with Fonts"
+msgstr "Zweispaltig, Blasenumriss, zentriert, heller Hintergrund mit Schriftarten"
+
+#: index.php:1502
+msgid "Two Columns, Bubble Outline, Dark Background"
+msgstr "Zweispaltig, Blasenumriss, dunkler Hintergrund"
+
+#: index.php:1514
+msgid "Two Columns, Bubble Outline, Dark Background with Fonts"
+msgstr "Zweispaltig, Blasenumriss, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1478
+msgid "Two Columns, Bubble Outline, Light Background"
+msgstr "Zweispaltig, Blasenumriss, heller Hintergrund"
+
+#: index.php:1490
+msgid "Two Columns, Bubble Outline, Light Background with Fonts"
+msgstr "Zweispaltig, Blasenumriss, heller Hintergrund mit Schriftarten"
+
+#: index.php:1509
+msgid "Two Columns, Bubble Outline, Tiled, Centered, Dark Background"
+msgstr "Zweispaltig, Blasenumriss, gekachelt, zentriert, dunkler Hintergrund"
+
+#: index.php:1521
+msgid "Two Columns, Bubble Outline, Tiled, Centered, Dark Background with Fonts"
+msgstr "Zweispaltig, Blasenumriss, gekachelt, zentriert, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1485
+msgid "Two Columns, Bubble Outline, Tiled, Centered, Light Background"
+msgstr "Zweispaltig, Blasenumriss, gekachelt, zentriert, heller Hintergrund"
+
+#: index.php:1497
+msgid "Two Columns, Bubble Outline, Tiled, Centered, Light Background with Fonts"
+msgstr "Zweispaltig, Blasenumriss, gekachelt, zentriert, heller Hintergrund mit Schriftarten"
+
+#: index.php:1503
+msgid "Two Columns, Bubble Outline, Tiled, Dark Background"
+msgstr "Zweispaltig, Blasenumriss, gekachelt, dunkler Hintergrund"
+
+#: index.php:1515
+msgid "Two Columns, Bubble Outline, Tiled, Dark Background with Fonts"
+msgstr "Zweispaltig, Blasenumriss, gekachelt, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1479
+msgid "Two Columns, Bubble Outline, Tiled, Light Background"
+msgstr "Zweispaltig, Blasenumriss, gekachelt, heller Hintergrund"
+
+#: index.php:1491
+msgid "Two Columns, Bubble Outline, Tiled, Light Background with Fonts"
+msgstr "Zweispaltig, Blasenumriss, gekachelt, heller Hintergrund mit Schriftarten"
+
+#: index.php:1506
+msgid "Two Columns, Centered, Dark Background"
+msgstr "Zweispaltig, zentriert, dunkler Hintergrund"
+
+#: index.php:1518
+msgid "Two Columns, Centered, Dark Background with Fonts"
+msgstr "Zweispaltig, zentriert, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1507
+msgid "Two Columns, Centered, Dark Background, Tiled"
+msgstr "Zweispaltig, zentriert, dunkler Hintergrund, gekachelt"
+
+#: index.php:1519
+msgid "Two Columns, Centered, Dark Background, Tiled with Fonts"
+msgstr "Zweispaltig, zentriert, dunkler Hintergrund, gekachelt mit Schriftarten"
+
+#: index.php:1482
+msgid "Two Columns, Centered, Light Background"
+msgstr "Zweispaltig, zentriert, heller Hintergrund"
+
+#: index.php:1494
+msgid "Two Columns, Centered, Light Background with Fonts"
+msgstr "Zweispaltig, zentriert, heller Hintergrund mit Schriftarten"
+
+#: index.php:1483
+msgid "Two Columns, Centered, Light Background, Tiled"
+msgstr "Zweispaltig, zentriert, heller Hintergrund, gekachelt"
+
+#: index.php:1495
+msgid "Two Columns, Centered, Light Background, Tiled with Fonts"
+msgstr "Zweispaltig, zentriert, heller Hintergrund, gekachelt mit Schriftarten"
+
+#: index.php:1501
+msgid "Two Columns, Tiled, Dark Background"
+msgstr "Zweispaltig, gekachelt, dunkler Hintergrund"
+
+#: index.php:1513
+msgid "Two Columns, Tiled, Dark Background with Fonts"
+msgstr "Zweispaltig, gekachelt, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1477
+msgid "Two Columns, Tiled, Light Background"
+msgstr "Zweispaltig, gekachelt, heller Hintergrund"
+
+#: index.php:1489
+msgid "Two Columns, Tiled, Light Background with Fonts"
+msgstr "Zweispaltig, gekachelt, heller Hintergrund mit Schriftarten"
+
+#: index.php:5620
+msgid "(opens in a new tab)"
+msgstr "(öffnet in neuem Tab)"
+
+#: templates/settings.php:254
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#. translators: %s: refers to the shortcode section bookmark
+#: templates/settings.php:258
+msgid "View all <a href=\"%s\">shortcodes and parameters</a> for further customization."
+msgstr "Zeige alle <a href=\"%s\">Shortcodes und Parameter</a> zur weiteren Anpassung an."
+
+#: index.php:652
+msgid "Synchronize Weekly"
+msgstr "Wöchentlich synchronisieren"
+
+#: index.php:3009
+msgid "Like our plugin? Please leave a review!"
+msgstr "Gefällt dir unser Plugin? Bitte hinterlasse eine Rezension!"
+
+#: templates/settings.php:234
+msgid "Color Scheme"
+msgstr "Farbschema"
+
+#: templates/settings.php:756
+msgid "Set a color scheme based on your overall visual requirements. These values match with the class attribute set to the main HTML element."
+msgstr "Lege ein Farbschema fest, das auf deinen allgemeinen visuellen Anforderungen basiert. Diese Werte stimmen mit dem Klassenattribut überein, das für das Haupt-HTML-Element festgelegt wurde."
+
+#: index.php:908
+msgid "Cranberry"
+msgstr "Cranberry"
+
+#: index.php:909
+msgid "Coral"
+msgstr "Koralle"
+
+#: index.php:910
+msgid "Pumpkin"
+msgstr "Kürbis"
+
+#: index.php:911
+msgid "Mustard"
+msgstr "Senf"
+
+#: index.php:912
+msgid "Forest"
+msgstr "Wald"
+
+#: index.php:913
+msgid "Turquoise"
+msgstr "Türkis"
+
+#: index.php:914
+msgid "Ocean"
+msgstr "Ozean"
+
+#: index.php:915
+msgid "Amethyst"
+msgstr "Amethyst"
+
+#: index.php:916
+msgid "Magenta"
+msgstr "Magenta"
+
+#: index.php:917
+msgid "Slate"
+msgstr "Schiefer"
+
+#: index.php:918
+msgid "Carbon"
+msgstr "Carbon"
+
+#: index.php:919
+msgid "Copper"
+msgstr "Kupfer"
+
+#: index.php:920
+msgid "Coffee"
+msgstr "Kaffee"
+
+#: index.php:921
+msgid "High Contrast"
+msgstr "Hoher Kontrast"
+
+#: widget.php:250
+msgid "Centered, Light, Bubble Filled"
+msgstr "Zentriert, hell, Blasenfüllung"
+
+#: widget.php:258
+msgid "Narrow, Light, Bubble Filled"
+msgstr "Schmal, hell, Blasenfüllung"
+
+#: widget.php:266
+msgid "Narrow, Centered, Light, Bubble Filled"
+msgstr "Schmal, zentriert, hell, Blasenfüllung"
+
+#: index.php:1436 widget.php:274
+msgid "Dark, Bubble Filled"
+msgstr "Dunkel, Blasenfüllung"
+
+#: index.php:1444 widget.php:282
+msgid "Centered, Dark, Bubble Filled"
+msgstr "Zentriert, dunkel, Blasenfüllung"
+
+#: index.php:1452 widget.php:290
+msgid "Narrow, Dark, Bubble Filled"
+msgstr "Schmal, dunkel, Blasenfüllung"
+
+#: index.php:1460 widget.php:298
+msgid "Narrow, Centered, Dark, Bubble Filled"
+msgstr "Schmal, zentriert, dunkel, Blasenfüllung"
+
+#: index.php:685
+msgid "Random Shuffle Static"
+msgstr "Zufallsmischung Statisch"
+
+#: index.php:686
+msgid "Random Shuffle Variable"
+msgstr "Random Shuffle Variable"
+
+#. translators: %s: refers to a shortcode parameter
+#: templates/settings.php:166
+msgid "We recommend using the shortcode parameter: <em>%s</em> for further customizations."
+msgstr "Wir empfehlen die Verwendung des Shortcode-Parameters <em>%s</em> für weitere Anpassungen."
+
+#: templates/settings.php:1606 templates/settings.php:1652
+#: templates/settings.php:1654
+msgid "Follow Us"
+msgstr "Folge uns"
+
+#: templates/settings.php:1653
+msgid "Want some easy-to-follow pro tips with examples? We will help you to make your reviews really stand out. Feature requests are welcome too."
+msgstr "Du möchtest ein paar einfach zu befolgende Profi-Tipps mit Beispielen? Wir helfen dir, deine Beiträge wirklich hervorzuheben. Auch Feature-Wünsche sind willkommen."
+
+#: templates/settings.php:1648
+msgid "Do you have any general support queries? Please search our forums at WordPress or make your own contribution. You can see that we are always very quick to reply!"
+msgstr "Hast du allgemeine Support-Anfragen? Bitte suche in unseren Foren unter WordPress oder erstelle einen eigenen Beitrag. Du wirst sehen, dass wir immer sehr schnell antworten!"
+
+#: templates/settings.php:1658
+msgid "Love this plugin with as much heart as we’ve put into its code? Why not share your feedback to help others with their plugin decision."
+msgstr "Liebst du dieses Plugin mit so viel Herz, wie wir in seinen Code gesteckt haben? Warum teilst du nicht dein Feedback, um anderen bei ihrer Plugin-Entscheidung zu helfen."
+
+#: templates/settings.php:1663
+msgid "This plugin is actually powered by oat flat whites… We welcome any show of support the advancement of this plugin, no matter how small."
+msgstr "Dieses Plugin wird tatsächlich von Haferflocken angetrieben... Wir freuen uns über jede noch so kleine Unterstützung bei der Weiterentwicklung dieses Plugins."
+
+#: widget.php:238
+msgid "Light Background, Bubble Outline"
+msgstr "Heller Hintergrund, Blasenumriss"
+
+#: widget.php:239
+msgid "Light, Bubble Outline with Fonts"
+msgstr "Hell, Blasenumriss mit Schriftarten"
+
+#: widget.php:242
+msgid "Light Background, Bubble Filled"
+msgstr "Heller Hintergrund, Blasenfüllung"
+
+#: widget.php:243
+msgid "Light, Bubble Filled with Fonts"
+msgstr "Hell, Blasenfüllung mit Schriftarten"
+
+#: widget.php:246
+msgid "Centered, Light, Bubble Outline"
+msgstr "Zentriert, hell, Blasenumriss"
+
+#: widget.php:247
+msgid "Centered, Light, Bubble Outline with Fonts"
+msgstr "Zentriert, hell, Blasenumriss mit Schriftarten"
+
+#: widget.php:251
+msgid "Centered, Light, Bubble Filled with Fonts"
+msgstr "Zentriert, hell, Blasenfüllung mit Schriftarten"
+
+#: widget.php:254
+msgid "Narrow, Light, Bubble Outline"
+msgstr "Schmal, hell, Blasenumriss"
+
+#: widget.php:255
+msgid "Narrow, Light, Bubble Outline with Fonts"
+msgstr "Schmal, hell, Blasenumriss mit Schriftarten"
+
+#: widget.php:259
+msgid "Narrow, Light, Bubble Filled with Fonts"
+msgstr "Schmal, hell, Blasenfüllung mit Schriftarten"
+
+#: widget.php:262
+msgid "Narrow, Centered, Light, Bubble Outline"
+msgstr "Schmal, zentriert, hell, Blasenumriss"
+
+#: widget.php:263
+msgid "Narrow, Centered, Light, Bubble Outline with Fonts"
+msgstr "Schmal, zentriert, hell, Blasenumriss mit Schriftarten"
+
+#: widget.php:267
+msgid "Narrow, Centered, Light, Bubble Filled with Fonts"
+msgstr "Schmal, zentriert, hell, Blasenfüllung mit Schriftarten"
+
+#: index.php:1432 widget.php:270
+msgid "Dark, Bubble Outline"
+msgstr "Dunkel, Blasenumriss"
+
+#: index.php:1433 widget.php:271
+msgid "Dark, Bubble Outline with Fonts"
+msgstr "Dunkel, Blasenumriss mit Schriftarten"
+
+#: index.php:1437 widget.php:275
+msgid "Dark, Bubble Filled with Fonts"
+msgstr "Dunkel, Blasenfüllung mit Schriftarten"
+
+#: index.php:1440 widget.php:278
+msgid "Centered, Dark, Bubble Outline"
+msgstr "Zentriert, dunkel, Blasenumriss"
+
+#: index.php:1441 widget.php:279
+msgid "Centered, Dark, Bubble Outline with Fonts"
+msgstr "Zentriert, dunkel, Blasenumriss mit Schriftarten"
+
+#: index.php:1445 widget.php:283
+msgid "Centered, Dark, Bubble Filled with Fonts"
+msgstr "Zentriert, dunkel, Blasenfüllung mit Schriftarten"
+
+#: index.php:1448 widget.php:286
+msgid "Narrow, Dark, Bubble Outline"
+msgstr "Schmal, dunkel, Blasenumriss"
+
+#: index.php:1449 widget.php:287
+msgid "Narrow, Dark, Bubble Outline with Fonts"
+msgstr "Schmal, dunkel, Blasenumriss mit Schriftarten"
+
+#: index.php:1453 widget.php:291
+msgid "Narrow, Dark, Bubble Filled with Fonts"
+msgstr "Schmal, dunkel, Blasenfüllung mit Schriftarten"
+
+#: index.php:1456 widget.php:294
+msgid "Narrow, Centered, Dark, Bubble Outline"
+msgstr "Schmal, zentriert, dunkel, Blasenumriss"
+
+#: index.php:1457 widget.php:295
+msgid "Narrow, Centered, Dark, Bubble Outline with Fonts"
+msgstr "Schmal, zentriert, dunkel, Blasenumriss mit Schriftarten"
+
+#: index.php:1461 widget.php:299
+msgid "Narrow, Centered, Dark, Bubble Filled with Fonts"
+msgstr "Schmal, zentriert, dunkel, Blasenfüllung mit Schriftarten"
+
+#: index.php:5661 templates/settings.php:745
+msgid "Show"
+msgstr "Anzeigen"
+
+#: index.php:5646
+msgid "Retrieved"
+msgstr "Empfangen"
+
+#: index.php:5642
+msgid "Author"
+msgstr "Autor"
+
+#: index.php:5641
+msgid "Submitted"
+msgstr "Übermittelt"
+
+#: index.php:5640
+msgid "ID"
+msgstr "ID"
+
+#: templates/settings.php:1264
+msgid "Works well with fill — add some padding between the main element and its children."
+msgstr "Funktioniert gut mit Fill - füge etwas Padding zwischen dem Hauptelement und seinen Kindern hinzu."
+
+#: templates/settings.php:1282
+msgid "Add the outline effect, the same as the badge theme, to other themes."
+msgstr "Füge den Umriss-Effekt, wie beim Abzeichenthema, zu anderen Themen hinzu."
+
+#: index.php:5650 templates/settings.php:435 templates/settings.php:473
+msgid "Place ID"
+msgstr "Place-ID"
+
+#: index.php:5661
+msgid "Hide"
+msgstr "Ausblenden"
+
+#: templates/settings.php:1532
+msgid "API Key and Place ID are both set and valid;"
+msgstr "API-Schlüssel und Place-ID sind beide eingestellt und gültig;"
+
+#. translators: %s: is the translation of “Synchronize Daily”
+#: templates/settings.php:113
+msgid "%s (Recommended)"
+msgstr "%s (empfohlen)"
+
+#: templates/settings.php:125
+msgid "Skip and enable Demo mode"
+msgstr "Überspringen und Demo-Modus einschalten"
+
+#: templates/settings.php:39
+msgid "An unknown error has a occurred, please reload this page."
+msgstr "Ein unbekannter Fehler ist aufgetreten. Bitte lade diese Seite neu."
+
+#: templates/settings.php:39
+msgid "A Google API Key is required"
+msgstr "Ein Google-API-Schlüssel ist erforderlich"
+
+#: templates/settings.php:39
+msgid "A Place ID is required"
+msgstr "Eine Place-ID ist erforderlich"
+
+#: templates/settings.php:39
+msgid "A Google API Key and a Place ID are required"
+msgstr "Ein Google-API-Schlüssel und eine Place-ID sind erforderlich"
+
+#: templates/settings.php:39
+msgid "The Google API Key and Place ID have different values"
+msgstr "Der Google-API-Schlüssel und die Place-ID haben unterschiedliche Werte"
+
+#: templates/settings.php:316
+msgid "Local Business"
+msgstr "Lokales Unternehmen"
+
+#: templates/settings.php:322
+msgid "Airline"
+msgstr "Fluggesellschaft"
+
+#: templates/settings.php:323 templates/settings.php:326
+#: templates/settings.php:329 templates/settings.php:332
+#: templates/settings.php:335 templates/settings.php:338
+#: templates/settings.php:341 templates/settings.php:344
+#: templates/settings.php:347 templates/settings.php:350
+#: templates/settings.php:353 templates/settings.php:356
+#: templates/settings.php:359 templates/settings.php:362
+msgid "Structured Data Not Available"
+msgstr "Strukturierte Daten nicht verfügbar"
+
+#: templates/settings.php:325
+msgid "Consortium"
+msgstr "Konsortium"
+
+#: templates/settings.php:328
+msgid "Corporation"
+msgstr "Konzern"
+
+#: templates/settings.php:331
+msgid "Educational Organization"
+msgstr "Bildungsorganisation"
+
+#: templates/settings.php:334
+msgid "Funding Scheme"
+msgstr "Förderprogramm"
+
+#: templates/settings.php:337
+msgid "Government Organization"
+msgstr "Regierungsorganisation"
+
+#: templates/settings.php:340
+msgid "Library System"
+msgstr "Bibliothekssystem"
+
+#: templates/settings.php:343
+msgid "Medical Organization"
+msgstr "Medizinische Organisation"
+
+#: templates/settings.php:346
+msgid "NGO"
+msgstr "NGO"
+
+#: templates/settings.php:349
+msgid "News Media Organization"
+msgstr "Organisation der Nachrichtenmedien"
+
+#: templates/settings.php:352
+msgid "Performing Group"
+msgstr "Auftretende Gruppe"
+
+#: templates/settings.php:355
+msgid "Project"
+msgstr "Projekt"
+
+#: templates/settings.php:358
+msgid "Sports Organization"
+msgstr "Sportorganisation"
+
+#: templates/settings.php:361
+msgid "Workers Union"
+msgstr "Gewerkschaft"
+
+#: index.php:1655
+msgid "Inexpensive $"
+msgstr "Preiswert $"
+
+#: index.php:1659
+msgid "Moderate $$"
+msgstr "Moderat $$"
+
+#: index.php:1663
+msgid "Expensive $$$"
+msgstr "Teuer $$$"
+
+#: index.php:1667
+msgid "Very Expensive $$$$"
+msgstr "Sehr teuer $$$$"
+
+#. translators: %u: number of reviews and should remain untouched; mid-sentence
+#. phrase
+#: index.php:2091 index.php:2205
+msgid "%u review did not have a valid author URL"
+msgid_plural "%u reviews did not have valid author URLs"
+msgstr[0] "%u Rezension hatte keine gültige Autoren-URL"
+msgstr[1] "%u Rezensionen hatten keine gültigen Autoren-URLs"
+
+#. translators: %u: number of reviews and should remain untouched; mid-sentence
+#. phrase
+#: index.php:2097 index.php:2211
+msgid "%u review was missing a date"
+msgid_plural "%u reviews were missing dates"
+msgstr[0] "%u Rezension fehlte ein Datum"
+msgstr[1] "%u Rezensionen fehlten Daten"
+
+#. translators: separator character and spacing between multiple message
+#. elements; spacing is important
+#: index.php:2105 index.php:2228
+msgid "; "
+msgstr "; "
+
+#. translators: 1: bookmark for parameter stars, 2: parameter name for stars,
+#. 3: bookmark for parameter stars_gray, 4: parameter name for stars_gray
+#: templates/settings.php:1332
+msgid "Apply style sheet colors to SVG vector images in the overall rating stars. Alternatively, use the parameter: <a href=\"%1$s\">%2$s</a> or <a href=\"%3$s\">%4$s</a>."
+msgstr "Wende Stilvorlagenfarben auf SVG-Vektorbilder in den Gesamtbewertungssternen an. Verwende alternativ den Parameter: <a href=\"%1$s\">%2$s</a> oder <a href=\"%3$s\">%4$s</a>."
+
+#: templates/settings.php:1374
+msgid "Alternative to clearing all applied styles using JavaScript."
+msgstr "Alternative zum Löschen aller angewendeten Stile mit JavaScript."
+
+#: templates/widget.php:106
+msgid "Fill background"
+msgstr "Hintergrund füllen"
+
+#: index.php:654
+msgid "Synchronize Every 6 Hours"
+msgstr "Alle 6 Stunden synchronisieren"
+
+#: index.php:3712
+msgid "Request count exceeded"
+msgstr "Anforderungsanzahl überschritten"
+
+#. translators: %s: WordPress function name should remain untouched
+#: index.php:3795 index.php:3802 index.php:3843
+msgid "Error: Required remote collection function not available: <em>%s</em>"
+msgstr "Fehler: Erforderliche Remote-Erfassungsfunktion nicht verfügbar: <em>%s</em>"
+
+#: index.php:4038
+msgid "Error: Empty result."
+msgstr "Fehler: Leeres Ergebnis."
+
+#: index.php:4050
+msgid "Empty result"
+msgstr "Leeres Ergebnis"
+
+#: templates/settings.php:1362
+msgid "This will trigger an overall link to the reviews on Google for the entire shortcode provided that no reviews are listed. This will already be applied in some instances."
+msgstr "Hierdurch wird für den gesamten Shortcode ein Link zur Gesamtheit der Bewertungen auf Google ausgelöst, sofern keine einzelnen Bewertungen aufgeführt sind. Dies wird in einigen Fällen bereits angewendet."
+
+#: templates/settings.php:1368
+msgid "If the more text does not expand, there may be another script interfering with click events. Try using this for a more basic approach."
+msgstr "Wenn der erweiterte Text nicht angezeigt wird, kann es sein, dass ein anderes Skript die Klickereignisse stört. Versuche, dies für einen einfacheren Ansatz zu verwenden."
+
+#. translators: 1: NULL as a parameter value, 2: Numerical zero as a parameter
+#. value
+#: templates/settings.php:688
+msgid "Simply sets the number of reviews you would like listed. Do not set or leave this empty (<span class=\"code\">%1$s</span>) = all reviews and <span class=\"code\">%2$s</span> = hide reviews."
+msgstr "Legt die Anzahl der Rezensionen fest, die du aufgelistet haben möchten. Nicht leer lassen (<span class=\"code\">%1$s</span>) = alle Rezensionen und <span class=\"code\">%2$s</span> = Rezensionen ausblenden."
+
+#: templates/settings.php:705
+msgid "When the limit is 1 or more, you can offset the review results to &ldquo;jump&rdquo; forward."
+msgstr "Wenn die Grenze bei 1 oder mehr liegt, können Sie die Überprüfungsergebnisse ausgleichen, um vorwärts zu &ldquo;springen&rdquo;."
+
+#: templates/settings.php:739
+msgid "Filter results based on the language using the two letter language code. Empty reviews have no language will always appear."
+msgstr "Filtere die Ergebnisse anhand der Sprache mit Hilfe des zweistelligen Sprachcodes. Leere Bewertungen, die keine Sprache haben, werden immer angezeigt."
+
+#. translators: %s: bookmark for HTML classes
+#: templates/settings.php:748
+msgid "Set a theme based on your overall visual requirements. You may use their combination of <a href=\"%s\">class names</a> (recommended) or the full text name (not recommended). These values match with the class attribute set to the main HTML element."
+msgstr "Lege ein Thema fest, das auf deinen allgemeinen visuellen Anforderungen basiert. Du kannst eine Kombination von <a href=\"%s\">Klassennamen</a> (empfohlen) oder den vollständigen Textnamen (nicht empfohlen) verwenden. Diese Werte stimmen mit dem Klassenattribut überein, das für das Haupt-HTML-Element festgelegt wurde."
+
+#: templates/settings.php:764
+msgid "Set to filter out any ratings that fall below this minimum value."
+msgstr "Lege fest, dass alle Bewertungen, die unter diesen Mindestwert fallen, herausgefiltert werden."
+
+#: templates/settings.php:772
+msgid "Set to filter out any ratings that lie above this maximum value."
+msgstr "Lege fest, dass alle Bewertungen herausgefiltert werden, die über diesem Maximalwert liegen."
+
+#: templates/settings.php:798 templates/settings.php:806
+#: templates/settings.php:892 templates/settings.php:900
+#: templates/settings.php:933 templates/settings.php:967
+#: templates/settings.php:975 templates/settings.php:1060
+msgid "Any string"
+msgstr "Beliebige Zeichenfolge"
+
+#: templates/settings.php:813
+msgid "Show or hide number of the overall rating."
+msgstr "Nummer der Gesamtbewertung ein- oder ausblenden."
+
+#. translators: 1: parameter value for CSS, 2: parameter value for specific
+#. colors
+#: templates/settings.php:822
+msgid "Show or hide stars for the overall rating, with an option to override default orange color for stars in the overall rating. Set as <em>%1$s</em> to mirror the style sheet rule <em>%2$s</em>."
+msgstr "Sterne für die Gesamtbewertung ein- oder ausblenden, mit einer Option zum Überschreiben der Standardfarbe Orange für Sterne in der Gesamtbewertung. Setze als <em>%1$s</em>, um die Stylesheet-Regel <em>%2$s</em> abzubilden."
+
+#: templates/settings.php:823 templates/settings.php:832
+msgid "Any valid color string"
+msgstr "Jede gültige Farbzeichenfolge"
+
+#. translators: 1: parameter value for CSS, 2: parameter value for specific
+#. colors
+#: templates/settings.php:831
+msgid "Optionally override the default gray color for stars in the overall rating. Set as <em>%1$s</em> to mirror the style sheet rule <em>%2$s</em>."
+msgstr "Setze optional die graue Standardfarbe für Sterne in der Gesamtbewertung außer Kraft. Setze als <em>%1$s</em>, um die Stylesheet-Regel <em>%2$s</em> abzubilden."
+
+#: templates/settings.php:839
+msgid "Show or hide total review/rating count."
+msgstr "Gesamtanzahl der Rezensionen/Bewertungen anzeigen oder ausblenden."
+
+#: templates/settings.php:849 templates/settings.php:942
+#: templates/settings.php:1086 templates/settings.php:1094
+#: templates/settings.php:1102 templates/settings.php:1110
+#: templates/settings.php:1119
+msgid "Any valid string"
+msgstr "Jede gültige Zeichenfolge"
+
+#: templates/settings.php:865
+msgid "Show or hide all review text leaving just the names, ratings and relative times."
+msgstr "Blende den gesamten Bewertungstext ein oder aus, so dass nur die Namen, Bewertungen und relativen Zeiten übrig bleiben."
+
+#. translators: 1: NULL as a parameter value, 2: Numerical zero as a parameter
+#. value
+#: templates/settings.php:874
+msgid "Filter by a minimum review text character count. Empty (<span class=\"code\">%1$s</span>) or <span class=\"code\">%2$s</span> = no minimum. "
+msgstr "Filtert nach einer Mindestanzahl von Zeichen für den Rezensionstext. Leer (<span class=\"code\">%1$s</span>) oder <span class=\"code\">%2$s</span> = kein Minimum. "
+
+#. translators: 1: NULL as a parameter value, 2: Numerical zero as a parameter
+#. value
+#: templates/settings.php:883
+msgid "Filter by a maximum review text character count. Empty (<span class=\"code\">%1$s</span>) = no maximum. <span class=\"code\">%2$s</span> = no review text. "
+msgstr "Filtert nach einer maximalen Anzahl von Zeichen für den Rezensionstext. Leer (<span class=\"code\">%1$s</span>) = kein Maximum. <span class=\"code\">%2$s</span> = kein Rezensionstext. "
+
+#: templates/settings.php:891
+msgid "Require a specific word or words in review text. Case insensitive; full word match. Multiple required words as a comma separated list."
+msgstr "Erfordert ein bestimmtes Wort oder bestimmte Wörter im Rezensionstext. Groß-/Kleinschreibung wird nicht berücksichtigt; vollständige Wortübereinstimmung. Mehrere erforderliche Wörter als kommagetrennte Liste."
+
+#: templates/settings.php:899
+msgid "Filter out reviews containing a specific word or words. Case insensitive; full word match. Multiple required words as a comma separated list."
+msgstr "Filtert Rezensionen heraus, die ein bestimmtes Wort oder bestimmte Wörter enthalten. Groß-/Kleinschreibung wird nicht berücksichtigt; vollständige Wortübereinstimmung. Mehrere erforderliche Wörter als kommagetrennte Liste."
+
+#. translators: %s: parameter value for NULL
+#: templates/settings.php:924
+msgid "Characters in review text to show before a &ldquo;more&rdquo; toggle link is shown to expand the remainder of the review. Empty (<span class=\"code\">%s</span>) = no excerpt; show all review text."
+msgstr "Zeichen im Rezensionstext, die angezeigt werden sollen, bevor ein &ldquo;mehr&rdquo; Toggle-Link angezeigt wird, um den Rest der Rezension zu erweitern. Leer (<span class=\"code\">%s</span>) = kein Auszug; den gesamten Rezensionstext anzeigen."
+
+#: templates/settings.php:932
+msgid "Text to use in the &ldquo;more&rdquo; toggle link."
+msgstr "Text, der im &ldquo;mehr&rdquo; Toggle-Link verwendet werden soll."
+
+#: templates/settings.php:949
+msgid "Set the entire element as a link to all reviews listed externally at Google (only if no reviews listed). Automatically added to Badge theme when no reviews are showing."
+msgstr "Setze das gesamte Element als Link zu allen extern bei Google gelisteten Rezensionen (nur wenn keine Rezensionen gelistet sind). Wird automatisch zum Badge-Thema hinzugefügt, wenn keine Rezensionen angezeigt werden."
+
+#: templates/settings.php:950
+msgid "URL string"
+msgstr "URL-String"
+
+#: templates/settings.php:966
+msgid "Show a link/button for all reviews listed externally at Google. Specify custom text string to appear as the link text. This is hidden by default."
+msgstr "Zeige einen Link/eine Schaltfläche für alle extern bei Google aufgeführten Rezensionen an. Lege eine benutzerdefinierte Textzeichenfolge fest, die als Linktext erscheinen soll. Dieser ist standardmäßig ausgeblendet."
+
+#: templates/settings.php:974
+msgid "Show a link/button to allow a visitor to leave a review at Google. Specify custom text string to appear as the link text. This is hidden by default."
+msgstr "Zeige einen Link/eine Schaltfläche an, damit ein Besucher eine Rezension bei Google hinterlassen kann. Gib eine benutzerdefinierte Textzeichenfolge an, die als Linktext erscheinen soll. Dieser ist standardmäßig ausgeblendet."
+
+#. translators: example path to image, include forward slashes
+#: templates/settings.php:999
+msgid "/url/to/image.jpg"
+msgstr "/url/to/image.jpg"
+
+#. translators: for the moment, leave powered by Google unchanged — title
+#. attribute exists for other languages
+#: templates/settings.php:1067
+msgid "Show or hide the &ldquo;powered by Google&rdquo; attribution."
+msgstr "Anzeigen oder Ausblenden des Attributs &ldquo;powered by Google&rdquo;."
+
+#. translators: 1: heading HTML tag, 2: another heading HTML tag
+#: templates/settings.php:1076
+msgid "Set your own HTML tags for elements such as replacing <span class=\"code\">%1$s</span> with <span class=\"code\">%2$s</span>. Any sequence length accepted; separated by commas for: heading, vicinity, rating, list, list item, buttons, attribution and errors."
+msgstr "Lege deine eigenen HTML-Tags für Elemente fest, z. B. das Ersetzen von <span class=\"code\">%1$s</span> durch <span class=\"code\">%2$s</span>. Jede Sequenzlänge wird akzeptiert; getrennt durch Kommas für: Überschrift, Umgebung, Bewertung, Liste, Listenelement, Schaltflächen, Attribution und Fehler."
+
+#. translators: %s: refers the ID of the next section and should remain
+#. unchanged
+#: templates/settings.php:1085
+msgid "Set the class attribute for main HTML element or the single anchor link. Refer to the <a href=\"%s\">HTML Classes</a> for a comprehensive list of pre-defined styles and triggers. Separated by spaces; not commas."
+msgstr "Lege das Klassenattribut für das Haupt-HTML-Element oder den einzelnen Anker-Link fest. Eine umfassende Liste der vordefinierten Stile und Auslöser findet sich in den <a href=\"%s\">HTML-Klassen</a>. Getrennt durch Leerzeichen; nicht durch Kommas."
+
+#: templates/settings.php:1093
+msgid "Specifically set the class attribute for a link or links. Separated by spaces; not commas."
+msgstr "Lege speziell das Klassenattribut für einen Link oder Links fest. Getrennt durch Leerzeichen; nicht durch Kommas."
+
+#: templates/settings.php:1101
+msgid "Set the class attribute for the Google reviews link only. Separated by spaces; not commas."
+msgstr "Lege das Klassenattribut nur für den Link zu Google-Bewertungen fest. Getrennt durch Leerzeichen; nicht durch Kommas."
+
+#: templates/settings.php:1109
+msgid "Set the class attribute for the Write a Google review link only. Separated by spaces; not commas."
+msgstr "Lege das Attribut class nur für den Link Schreibe eine Google Rezension fest. Getrennt durch Leerzeichen; nicht durch Kommas."
+
+#: templates/settings.php:1135
+msgid "Choose to not load the style sheet that makes your rating and reviews look good. <em>Not recommended as a parameter.</em>"
+msgstr "Lege fest, dass das Stylesheet, das deine Bewertungen und Rezensionen gut aussehen lässt, nicht geladen wird. <em>Nicht als Parameter empfohlen.</em>"
+
+#: templates/settings.php:1145
+msgid "Positive float number:"
+msgstr "Positive Gleitkommazahl:"
+
+#. translators: 1: WP_DEBUG definition name, 2: WordPress configuration file
+#. name
+#: templates/settings.php:1153
+msgid "You can choose to hide error notices caused by lack of reviews, filtering that leads to no reviews or lack of source data. Defaults to <span class=\"code\">%1$s</span> if defined in <em>%2$s</em>."
+msgstr "Du kannst wählen, ob du Fehlermeldungen ausblenden möchtest, die durch fehlende Rezensionen, Filterung, die zu keinen Rezensionen führt, oder fehlende Quelldaten verursacht werden. Der Standardwert ist <span class=\"code\">%1$s</span>, wenn er in <em>%2$s</em> definiert ist."
+
+#: templates/settings.php:558 templates/settings.php:1161
+msgid "HTML Classes"
+msgstr "HTML-Klassen"
+
+#. translators: 1: bookmark for parameter theme, 2: name of theme parameter, 3:
+#. bookmark for parameter class, 4: name of class parameter
+#: templates/settings.php:1163
+msgid "Stylistically, you may wish to make changes that are beyond the list of themes. Here is a list of HTML classes that can be used by <a href=\"%1$s\">%2$s</a> or <a href=\"%3$s\">%4$s</a> parameter to set your design and functionality preferences."
+msgstr "Stilistisch möchtest du vielleicht Änderungen vornehmen, die über die Liste der Themen hinausgehen. Hier findest du eine Liste von HTML-Klassen, die durch <a href=\"%1$s\">%2$s</a> oder <a href=\"%3$s\">%4$s</a> Parameter verwendet werden können, um Ihre Design- und Funktionalitätspräferenzen festzulegen."
+
+#: templates/settings.php:1166
+msgid "Class"
+msgstr "Klasse"
+
+#: templates/settings.php:1185
+msgid "Uses fonts, styling and sizing found in the Google review listings."
+msgstr "Verwendet Schriftarten, Styling und Größe, die in den Google-Rezensionslisten zu finden sind."
+
+#: templates/settings.php:1203
+msgid "If the shortcode is placed in a narrow container and text or elements are jumping to a new lines, try applying this class to handle the narrow space in a neater fashion."
+msgstr "Wenn der Shortcode in einem schmalen Container platziert ist und Text oder Elemente in eine neue Zeile springen, versuche, diese Klasse anzuwenden, um den schmalen Raum sauberer zu behandeln."
+
+#: templates/settings.php:1209
+msgid "Centrally align all text and elements. Can be applied to any theme but some may already share its styling."
+msgstr "Richte alle Texte und Elemente zentral aus. Kann auf jedes Thema angewendet werden, aber einige haben möglicherweise bereits das gleiche Styling."
+
+#: templates/settings.php:1222
+msgid "Set to two columns, must be used with columns class."
+msgstr "Auf zwei Spalten eingestellt, muss mit der Klasse columns verwendet werden."
+
+#: templates/settings.php:1228
+msgid "Set to three columns, must be used with columns class."
+msgstr "Auf drei Spalten eingestellt, muss mit der Klasse columns verwendet werden."
+
+#: templates/settings.php:1234
+msgid "Set to four columns, must be used with columns class."
+msgstr "Auf vier Spalten eingestellt, muss mit der Klasse columns verwendet werden."
+
+#: templates/settings.php:1252
+msgid "Review text can be justified — works better with narrow spaces or columns."
+msgstr "Rezensionstext kann im Blocksatz ausgerichtet werden - funktioniert besser bei schmalen Abständen oder Spalten."
+
+#: templates/settings.php:1258
+msgid "Useful for badge and tiny themes — fill the background with a solid color that works with light or dark. Recommend using your own styling to set a specific color."
+msgstr "Nützlich für Abzeichen und kleine Themen - fülle den Hintergrund mit einer Volltonfarbe, die mit hell oder dunkel funktioniert. Es wird empfohlen, dein eigenes Styling zu verwenden, um eine bestimmte Farbe einzustellen."
+
+#: templates/settings.php:1294
+msgid "Alternatively stripe the main sections with alternating backgrounds."
+msgstr "Alternativ Streifen verwenden für die Hauptabschnitte mit wechselnden Hintergründen."
+
+#: templates/settings.php:1300
+msgid "Used with stripe to offer a more contrasting version of the alternating backgrounds with dark/light text."
+msgstr "Wird mit Streifen verwendet, um eine kontrastreichere Version der abwechselnden Hintergründe mit dunklem/hellem Text zu bieten."
+
+#: templates/settings.php:1312
+msgid "Override the default Google icon with a monochrome white version. Used for tiny badges and links."
+msgstr "Überschreibt das standardmäßige Google-Symbol mit einer monochromen weißen Version. Wird für kleine Abzeichen und Links verwendet."
+
+#: templates/settings.php:1318
+msgid "Override the default Google icon with a monochrome black version. Used for tiny badges and links."
+msgstr "Überschreibt das standardmäßige Google-Symbol mit einer monochromen schwarzen Version. Wird für kleine Abzeichen und Links verwendet."
+
+#. translators: 1: bookmark for parameter stars, 2: parameter name for stars,
+#. 3: bookmark for parameter stars_gray, 4: parameter name for stars_gray
+#: templates/settings.php:1325
+msgid "Use HTML entities rather than SVG vector images in the overall rating stars. Alternatively, use the parameter: <a href=\"%1$s\">%2$s</a> or <a href=\"%3$s\">%4$s</a>."
+msgstr "Verwende HTML-Entities anstelle von SVG-Vektorbildern in den Gesamtbewertungssternen. Verwende alternativ den Parameter: <a href=\"%1$s\">%2$s</a> oder <a href=\"%3$s\">%4$s</a>."
+
+#: templates/settings.php:731
+msgid "If you have more than one Place in the retrieved reviews, you can filter by the Place ID. Only the active Place will receive new reviews and data."
+msgstr "Wenn du mehr als einen Ort in den abgerufenen Rezensionen hast, kannst du nach der Place-ID filtern. Nur der aktive Ort erhält dann neue Rezensionen und Daten."
+
+#: templates/settings.php:732
+msgid "String"
+msgstr "Zeichenfolge"
+
+#: templates/settings.php:448 templates/settings.php:449
+msgid "Unknown Place"
+msgstr "Unbekannter Ort"
+
+#: index.php:1472 widget.php:310
+msgid "Tiny Badge, Light Background"
+msgstr "Winziges Abzeichen, heller Hintergrund"
+
+#: index.php:1473 widget.php:311
+msgid "Tiny Badge, Light Background with Fonts"
+msgstr "Winziges Abzeichen, heller Hintergrund mit Schriftarten"
+
+#: index.php:1474 widget.php:312
+msgid "Tiny Badge, Dark Background"
+msgstr "Winziges Abzeichen, dunkler Hintergrund"
+
+#: index.php:1475 widget.php:313
+msgid "Tiny Badge, Dark Background with Fonts"
+msgstr "Winziges Abzeichen, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:6171 index.php:6462
+msgid "Powered by Google"
+msgstr "Powered by Google"
+
+#: index.php:1372 widget.php:210
+msgid "Centered, Light Background"
+msgstr "Zentriert, heller Hintergrund"
+
+#: index.php:1373 widget.php:211
+msgid "Centered, Light Background with Fonts"
+msgstr "Zentriert, heller Hintergrund mit Schriftarten"
+
+#: index.php:1380 widget.php:218
+msgid "Narrow, Centered, Light Background"
+msgstr "Schmal, zentriert, heller Hintergrund"
+
+#: index.php:1381 widget.php:219
+msgid "Narrow, Centered, Light Background with Fonts"
+msgstr "Schmal, zentriert, heller Hintergrund mit Schriftarten"
+
+#: index.php:1388 widget.php:226
+msgid "Centered, Dark Background"
+msgstr "Zentriert, dunkler Hintergrund"
+
+#: index.php:1389 widget.php:227
+msgid "Centered, Dark Background with Fonts"
+msgstr "Zentriert, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1396 widget.php:234
+msgid "Narrow, Centered, Dark Background"
+msgstr "Schmal, zentriert, dunkler Hintergrund"
+
+#: index.php:1397 widget.php:235
+msgid "Narrow, Centered, Dark Background with Fonts"
+msgstr "Schmal, zentriert, dunkler Hintergrund mit Schriftarten"
+
+#: templates/settings.php:1633 templates/settings.php:1640
+msgid "Installed"
+msgstr "Installiert"
+
+#: templates/settings.php:106 templates/settings.php:495
+msgid "Update Frequency"
+msgstr "Aktualisierungsfrequenz"
+
+#: templates/settings.php:536
+msgid "Clean Retrieved Data"
+msgstr "Empfangene Daten bereinigen"
+
+#: templates/settings.php:538
+msgid "Additional sanitization of retrieved data — emoticons are removed from text"
+msgstr "Zusätzliche Bereinigung der abgerufenen Daten - Emoticons werden aus dem Text entfernt"
+
+#. translators: %u: refers number of reviews and must remain intact
+#: templates/settings.php:179
+msgid "You currently have %u active review retrieved from Google Places."
+msgid_plural "You currently have %u active reviews retrieved from Google Places (and imported)."
+msgstr[0] "Du hast aktuell %u aktive, von Google Places abgerufene Rezension."
+msgstr[1] "Du hast aktuell %u aktive, von Google Places abgerufene Rezensionen."
+
+#: templates/settings.php:299
+msgid "Enable and insert Structured Data on the front page."
+msgstr "Aktiviere und füge strukturierte Daten auf der Startseite ein."
+
+#: index.php:2084
+msgid "No reviews imported"
+msgstr "Keine Rezensionen importiert"
+
+#. translators: %u: number of reviews and should remain untouched
+#: index.php:2136
+msgid "Review import failed. Please select a smaller number of reviews, less than %u."
+msgstr "Der Import von Rezensionen ist fehlgeschlagen. Bitte wähle eine kleinere Anzahl von Bewertungen, weniger als %u."
+
+#: index.php:2145
+msgid "Review import failed."
+msgstr "Der Rezensionsimport ist fehlgeschlagen."
+
+#. translators: %u: number of reviews and should remain untouched
+#: index.php:2177
+msgid "Review import failed due the handling of serialized data by WordPress. Please select a smaller number of reviews, less than %u."
+msgstr "Der Import von Rezensionen ist aufgrund der Behandlung serialisierter Daten durch WordPress fehlgeschlagen. Bitte wähle eine kleinere Anzahl von Bewertungen, weniger als %u."
+
+#: index.php:2187
+msgid "Review import failed due the handling of serialized data by WordPress."
+msgstr "Der Review-Import ist aufgrund der Behandlung serialisierter Daten durch WordPress fehlgeschlagen."
+
+#. translators: %s: file name and should remain untouched
+#: index.php:2600
+msgid "Cannot create a new file: %s"
+msgstr "Eine neue Datei kann nicht erstellt werden: %s"
+
+#. translators: %s: file name and should remain untouched
+#: index.php:2611
+msgid "File at: %s is not writable."
+msgstr "Die Datei bei: %s ist nicht beschreibbar."
+
+#. translators: %s: file name and should remain untouched
+#: index.php:2626
+msgid "Cannot write new data to file at: %s"
+msgstr "Kann keine neuen Daten in die Datei schreiben bei: %s"
+
+#: templates/settings.php:1604 templates/settings.php:1627
+msgid "Plugins by the Developer"
+msgstr "Plugins des Entwicklers"
+
+#: templates/settings.php:1632 templates/settings.php:1638
+msgid "More Details"
+msgstr "Weitere Details"
+
+#: templates/settings.php:1462
+msgid "Most Recent Valid Retrieved Data"
+msgstr "Letzte gültige abgerufenen Daten"
+
+#. translators: 1: URL of reviews on Google, 2: URL of Place Finder
+#: templates/settings.php:1465
+msgid ""
+"This is the last successfully retrieved data from Google and will be used in the website. While your current reviews may still be visible on <a href=\"%1$s\" class=\"components-external-link\" target=\"_blank\">Google</a>, they are no longer being retrieved.\n"
+"\t\tPlease check and update your <a href=\"%2$s\" class=\"components-external-link\" target=\"_blank\">Place ID</a> if you wish to regain full functionality."
+msgstr ""
+"Dies sind die letzten erfolgreich abgerufenen Daten von Google und werden auf der Website verwendet. Deine aktuellen Bewertungen können zwar noch auf <a href=\"%1$s\" class=\"components-external-link\" target=\"_blank\">Google</a> sichtbar sein, werden aber nicht mehr abgerufen.\n"
+"\t\tBitte überprüfe und aktualisiere deine <a href=\"%2$s\" class=\"components-external-link\" target=\"_blank\">Place-ID</a>, wenn du die volle Funktionalität wiedererlangen möchtest."
+
+#. translators: %s: refers to Schema URL and name, leave unchanged
+#: templates/settings.php:286
+msgid "Allow search engines to easily read review data for your website using Structured Data %s which includes general business information and recent, relevant and visible reviews."
+msgstr "Ermögliche Suchmaschinen das einfache Lesen von Bewertungsdaten der Website mithilfe von Strukturierten Daten %s, die allgemeine Geschäftsinformationen sowie aktuelle, relevante und sichtbare Rezensionen enthalten."
+
+#: index.php:1376 widget.php:214
+msgid "Narrow, Light Background"
+msgstr "Schmal, heller Hintergrund"
+
+#: index.php:1377 widget.php:215
+msgid "Narrow, Light Background with Fonts"
+msgstr "Schmal, heller Hintergrund mit Schriftarten"
+
+#: index.php:1392 widget.php:230
+msgid "Narrow, Dark Background"
+msgstr "Schmal, dunkler Hintergrund"
+
+#: index.php:1393 widget.php:231
+msgid "Narrow, Dark Background with Fonts"
+msgstr "Schmal, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1466 widget.php:304
+msgid "Narrow Badge, Light Background"
+msgstr "Schmales Abzeichen, heller Hintergrund"
+
+#: index.php:1467 widget.php:305
+msgid "Narrow Badge, Light Background with Fonts"
+msgstr "Schmales Abzeichen, heller Hintergrund mit Schriftarten"
+
+#: index.php:1470 widget.php:308
+msgid "Narrow Badge, Dark Background"
+msgstr "Schmales Abzeichen, dunkler Hintergrund"
+
+#: index.php:1471 widget.php:309
+msgid "Narrow Badge, Dark Background with Fonts"
+msgstr "Schmales Abzeichen, dunkler Hintergrund mit Schriftarten"
+
+#. translators: %s refers to useful URLs to resolve errors and should remain
+#. untouched
+#: index.php:1723
+msgid "<strong>Error:</strong> Google has not found data for the current Place ID. Please ensure you search for a specific business location; not a region or coordinates using the <a href=\"%s\" target=\"_blank\">Place ID Finder</a>."
+msgstr "<strong>Fehler:</strong> Google hat keine Daten für die aktuelle Place-ID gefunden. Bitte stelle sicher, dass du mit dem <a href=\"%s\" target=\"_blank\">Place-ID Finder</a> nach einem bestimmten Geschäftsstandort und nicht nach einer Region oder Koordinaten suchst."
+
+#: templates/settings.php:1539
+msgid "If you prefer to manage your style sheet outside of your theme, you may add your own customized styles."
+msgstr "Wenn du es vorziehst, dein Stylesheet außerhalb deines Themes zu verwalten, kannst du deine eigenen angepassten Stile hinzufügen."
+
+#: templates/settings.php:1556 templates/settings.php:1566
+msgid "Save"
+msgstr "Speichern"
+
+#. translators: %s: file directory and should remain untouched
+#: index.php:2583
+msgid "Cannot create a new file in plugin directory: %s"
+msgstr "Kann keine neue Datei im Plugin-Verzeichnis erstellen: %s"
+
+#: templates/settings.php:164
+msgid "We recommend matching the limit to multiples of columns."
+msgstr "Wir empfehlen, das Limit auf mehrere Spalten abzustimmen."
+
+#: index.php:1476
+msgid "Two Columns, Light Background"
+msgstr "Zweispaltig, heller Hintergrund"
+
+#: index.php:1488
+msgid "Two Columns, Light Background with Fonts"
+msgstr "Zweispaltig, heller Hintergrund mit Schriftarten"
+
+#: index.php:1500
+msgid "Two Columns, Dark Background"
+msgstr "Zweispaltig, dunkler Hintergrund"
+
+#: index.php:1512
+msgid "Two Columns, Dark Background with Fonts"
+msgstr "Zweispaltig, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1524
+msgid "Three Columns, Light Background"
+msgstr "Dreispaltig, heller Hintergrund"
+
+#: index.php:1536
+msgid "Three Columns, Light Background with Fonts"
+msgstr "Dreispaltig, heller Hintergrund mit Schriftarten"
+
+#: index.php:1548
+msgid "Three Columns, Dark Background"
+msgstr "Dreispaltig, dunkler Hintergrund"
+
+#: index.php:1560
+msgid "Three Columns, Dark Background with Fonts"
+msgstr "Dreispaltig, dunkler Hintergrund mit Schriftarten"
+
+#: index.php:1572
+msgid "Four Columns, Light Background"
+msgstr "Vier Spalten, heller Hintergrund"
+
+#: index.php:1584
+msgid "Four Columns, Light Background with Fonts"
+msgstr "Vier Spalten, heller Hintergrund mit Schriftarten"
+
+#: index.php:1596
+msgid "Four Columns, Dark Background"
+msgstr "Vierspaltig, dunkler Hintergrund"
+
+#: index.php:1608
+msgid "Four Columns, Dark Background with Fonts"
+msgstr "Vierspaltig, dunkler Hintergrund mit Schriftarten"
+
+#. translators: %s: refers to a HTML ID, leave unchanged
+#: templates/settings.php:230
+msgid "The characters displayed before a <a href=\"%s\" class=\"void\">… More</a> toggle is shown to reveal the full review text. Leave empty for no excerpt."
+msgstr "Sichtbare Anzahl der Zeichen einer Rezension, bevor<a href=\"%s\" class=\"void\">… mehr</a> zum Einblenden des restlichen Texts erscheint. Freilassen falls keine Kurzfassung gewünscht wird."
+
+#: templates/settings.php:163
+msgid "We recommend hiding all reviews with this theme."
+msgstr "Wir empfehlen bei diesem Thema, alle Bewertungen auszublenden."
+
+#: templates/settings.php:247 templates/settings.php:383
+msgid "Choose Image"
+msgstr "Bild auswählen"
+
+#: templates/settings.php:247 templates/settings.php:383
+msgid "Replace"
+msgstr "Ersetzen"
+
+#: templates/settings.php:262 templates/settings.php:302
+msgid "Preview"
+msgstr "Vorschau"
+
+#: templates/settings.php:144 templates/settings.php:284
+#: templates/settings.php:289
+msgid "Structured Data"
+msgstr "Strukturierte Daten"
+
+#: templates/settings.php:307
+msgid "Telephone"
+msgstr "Telefon"
+
+#: templates/settings.php:313
+msgid "Business Type"
+msgstr "Unternehmensart"
+
+#: templates/settings.php:317
+msgid "Not Applicable/Other"
+msgstr "Nicht zutreffend/Sonstiges"
+
+#: templates/settings.php:368
+msgid "Price Range"
+msgstr "Preisbereich"
+
+#: templates/settings.php:371
+msgid "Not Applicable"
+msgstr "Nicht zutreffend"
+
+#: templates/settings.php:379
+msgid "Logo"
+msgstr "Logo"
+
+#: templates/settings.php:1515
+msgid "Only import original"
+msgstr "Nur Original importieren"
+
+#: templates/settings.php:1516
+msgid "Only import translation"
+msgstr "Nur Übersetzung importieren"
+
+#: templates/settings.php:1517
+msgid "Import full review text"
+msgstr "Vollständigen Rezensionstext importieren"
+
+#: templates/settings.php:1529
+msgid "This section is only available when the following criteria are met:"
+msgstr "Dieser Abschnitt ist nur verfügbar, wenn die folgenden Kriterien erfüllt sind:"
+
+#: templates/settings.php:1531
+msgid "Demo mode is inactive;"
+msgstr "Der Demo-Modus ist inaktiv;"
+
+#: templates/settings.php:1533
+msgid "Five or more reviews retrieved from Google."
+msgstr "Fünf oder mehr Rezensionen, die von Google abgerufen wurden."
+
+#: index.php:1622
+msgid "Animal Shelter"
+msgstr "Tierheim"
+
+#: index.php:1623
+msgid "Archive Organization"
+msgstr "Archivorganisation"
+
+#: index.php:1624
+msgid "Automotive Business"
+msgstr "Automobilbranche"
+
+#: index.php:1625
+msgid "Child Care"
+msgstr "Kinderbetreuung"
+
+#: index.php:1626
+msgid "Dentist"
+msgstr "Zahnarzt"
+
+#: index.php:1627
+msgid "Dry Cleaning or Laundry"
+msgstr "Chemische Reinigung oder Wäscherei"
+
+#: index.php:1628
+msgid "Emergency Service"
+msgstr "Notdienst"
+
+#: index.php:1629
+msgid "Employment Agency"
+msgstr "Arbeitsvermittlung"
+
+#: index.php:1630
+msgid "Entertainment Business"
+msgstr "Unterhaltungsbranche"
+
+#: index.php:1631
+msgid "Financial Service"
+msgstr "Finanzdienstleistung"
+
+#: index.php:1632
+msgid "Food Establishment"
+msgstr "Lebensmittelbetrieb"
+
+#: index.php:1633
+msgid "Government Office"
+msgstr "Behörde"
+
+#: index.php:1634
+msgid "Health and Beauty Business"
+msgstr "Gesundheit und Schönheit Unternehmen"
+
+#: index.php:1635
+msgid "Home and Construction Business"
+msgstr "Haus- und Bauwesen"
+
+#: index.php:1636
+msgid "Internet Café"
+msgstr "Internetcafé"
+
+#: index.php:1637
+msgid "Legal Service"
+msgstr "Juristischer Beistand"
+
+#: index.php:1638
+msgid "Library"
+msgstr "Bibliothek"
+
+#: index.php:1639
+msgid "Lodging Business"
+msgstr "Beherbergungsbetrieb"
+
+#: index.php:1640
+msgid "Medical Business"
+msgstr "Medizinisches Geschäft"
+
+#: index.php:1641
+msgid "Professional Service"
+msgstr "Professionelle Dienstleistung"
+
+#: index.php:1642
+msgid "Radio Station"
+msgstr "Radiosender"
+
+#: index.php:1643
+msgid "Real Estate Agent"
+msgstr "Immobilienmakler"
+
+#: index.php:1644
+msgid "Recycling Center"
+msgstr "Recycling Zentrum"
+
+#: index.php:1645
+msgid "Self Storage"
+msgstr "Selbstlagerung"
+
+#: index.php:1646
+msgid "Shopping Center"
+msgstr "Einkaufszentrum"
+
+#: index.php:1647
+msgid "Sports Activity Location"
+msgstr "Sportstätte"
+
+#: index.php:1648
+msgid "Store"
+msgstr "Ladengeschäft"
+
+#: index.php:1649
+msgid "Television Station"
+msgstr "Fernsehsender"
+
+#: index.php:1650
+msgid "Tourist Information Center"
+msgstr "Touristeninformationszentrum"
+
+#: index.php:1651
+msgid "Travel Agency"
+msgstr "Reisebüro"
+
+#: index.php:1730
+msgid "Error:"
+msgstr "Fehler:"
+
+#: index.php:1730
+msgid "<strong>Error:</strong> Unknown — Please check Retrieved data to find out more information."
+msgstr "<strong>Fehler:</strong> Unbekannt - Bitte prüfe die abgerufenen Daten, um weitere Informationen zu erhalten."
+
+#. translators: %s: WordPress function name should remain untouched
+#: index.php:3850
+msgid "Error: Unable to collect remote data from URL: <em>%s</em>"
+msgstr "Fehler: Remote-Daten können nicht über die URL <em>%s</em> erfasst werden"
+
+#: index.php:5956 index.php:5977 index.php:5998 index.php:6541
+msgid "Error"
+msgstr "Fehler"
+
+#: templates/widget.php:32
+msgid "%1$s review available"
+msgstr "%1$s Rezension verfügbar"
+
+#. translators: %s refers to useful URLs to resolve errors and should remain
+#. untouched
+#: index.php:1705
+msgid "<strong>Error:</strong> Your Google API Key is not valid for this request and permission is denied. Please check your Google <a href=\"%s\" target=\"_blank\">API Key</a>."
+msgstr "<strong>Fehler:</strong> Dein Google-API-Schlüssel ist für diese Anfrage nicht gültig und die Berechtigung wird verweigert. Bitte überprüfe deinen Google-<a href=\"%s\" target=\"_blank\">API-Schlüssel</a>."
+
+#. translators: %s refers to useful URLs to resolve errors and should remain
+#. untouched
+#: index.php:1714
+msgid "<strong>Error:</strong> Google has returned an invalid request error. Please check your <a href=\"%s\" target=\"_blank\">Place ID</a>."
+msgstr "<strong>Fehler:</strong> Google hat einen ungültigen Anfragefehler zurückgegeben. Bitte überprüfe deine <a href=\"%s\" target=\"_blank\">Place-ID</a>."
+
+#: index.php:3611 index.php:3687
+msgid "Error: Place ID and Google API Key are required."
+msgstr "Fehler: Place-ID und Google-Api-Schlüssel sind erforderlich."
+
+#: index.php:3615 index.php:3640 index.php:3691
+msgid "Error: Place ID is required."
+msgstr "Fehler: Place-ID ist erforderlich."
+
+#: index.php:3619 index.php:3647 index.php:3695
+msgid "Error: Google API Key is required."
+msgstr "Fehler: Google-API-Schlüssel ist erforderlich."
+
+#: index.php:3633
+msgid "Place ID and Google API Key are required."
+msgstr "Place-ID und Google-API-Schlüssel sind erforderlich."
+
+#: templates/settings.php:1513
+msgid "HTML from your Reviews on Google"
+msgstr "HTML aus deinen Bewertungen auf Google"
+
+#: index.php:657
+msgid "Relevance Descending"
+msgstr "Relevanz absteigend"
+
+#: index.php:658 index.php:660 index.php:666 index.php:668 index.php:674
+#: index.php:676 index.php:678 index.php:680 index.php:682 index.php:684
+msgid "High"
+msgstr "Hoch"
+
+#: index.php:658 index.php:660 index.php:666 index.php:668 index.php:674
+#: index.php:676 index.php:678 index.php:680 index.php:682 index.php:684
+msgid "Low"
+msgstr "Niedrig"
+
+#: index.php:659
+msgid "Relevance Ascending"
+msgstr "Relevanz aufsteigend"
+
+#: index.php:661
+msgid "Date Descending"
+msgstr "Datum absteigend"
+
+#: index.php:662 index.php:664
+msgid "New"
+msgstr "Neu"
+
+#: index.php:662 index.php:664
+msgid "Old"
+msgstr "Alt"
+
+#: index.php:663
+msgid "Date Ascending"
+msgstr "Datum aufsteigend"
+
+#: index.php:665
+msgid "Rating Descending"
+msgstr "Bewertung absteigend"
+
+#: index.php:667
+msgid "Rating Ascending"
+msgstr "Bewertung aufsteigend"
+
+#: index.php:669
+msgid "Author’s Name Ascending"
+msgstr "Autorenname aufsteigend"
+
+#: index.php:671
+msgid "Author’s Name Descending"
+msgstr "Autorenname absteigend"
+
+#: index.php:681
+msgid "ID Ascending"
+msgstr "ID aufsteigend"
+
+#: index.php:683
+msgid "ID Descending"
+msgstr "ID absteigend"
+
+#: index.php:5683 index.php:6258
+msgid "No reviews found."
+msgstr "Keine Rezensionen gefunden."
+
+#: index.php:6263
+msgid "No reviews found, offset too high or another restriction."
+msgstr "Keine Rezensionen gefunden, Offset zu hoch oder eine andere Einschränkung."
+
+#: templates/widget.php:68
+msgid "Review Text Language:"
+msgstr "Rezensionstext Sprache:"
+
+#: templates/widget.php:70
+msgid "Any Language"
+msgstr "Beliebige Sprache"
+
+#: index.php:687
+msgid "just now"
+msgstr "gerade eben"
+
+#. translators: %u: number of hours, days, weeks, months or years and should
+#. remain untouched
+#: index.php:689
+msgid "%u hours ago"
+msgstr "vor %u Stunden"
+
+#: index.php:690
+msgid "a day ago"
+msgstr "vor einem Tag"
+
+#. translators: %u: number of hours, days, weeks, months or years and should
+#. remain untouched
+#: index.php:692
+msgid "%u days ago"
+msgstr "vor %u Tagen"
+
+#: index.php:693
+msgid "in the last week"
+msgstr "in der letzten Woche"
+
+#: index.php:694
+msgid "a week ago"
+msgstr "vor einer Woche"
+
+#. translators: %u: number of hours, days, weeks, months or years and should
+#. remain untouched
+#: index.php:696
+msgid "%u weeks ago"
+msgstr "vor %u Wochen"
+
+#: index.php:697
+msgid "a month ago"
+msgstr "vor einem Monat"
+
+#. translators: %u: number of hours, days, weeks, months or years and should
+#. remain untouched
+#: index.php:699
+msgid "%u months ago"
+msgstr "vor %u Monaten"
+
+#: index.php:700
+msgid "a year ago"
+msgstr "vor einem Jahr"
+
+#. translators: %u: number of hours, days, weeks, months or years and should
+#. remain untouched
+#: index.php:702
+msgid "%u years ago"
+msgstr "vor %u Jahren"
+
+#: templates/settings.php:1479 templates/settings.php:1571
+msgid "Cache"
+msgstr "Cachen"
+
+#: templates/settings.php:1572
+msgid "You may wish to clear the cache and retrieve fresh data from Google."
+msgstr "Möglicherweise möchtest du den Cache löschen und frische Daten von Google abrufen."
+
+#: templates/settings.php:1574
+msgid "Clear Cache"
+msgstr "Cache leeren"
+
+#: templates/settings.php:192
+msgid "Review Sort"
+msgstr "Sortieren nach"
+
+#: templates/settings.php:1480 templates/settings.php:1579
+#: templates/settings.php:1594
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: templates/widget.php:50
+msgid "Review Sort:"
+msgstr "Rezension Sortieren:"
+
+#: templates/settings.php:174
+msgid "Hide Reviews"
+msgstr "Rezensionen verstecken"
+
+#: templates/settings.php:175
+msgid "Show Limited Reviews"
+msgstr "Begrenzte Anzahl Rezensionen anzeigen"
+
+#: templates/settings.php:176
+msgid "Show All Reviews"
+msgstr "Alle Rezensionen anzeigen"
+
+#: templates/settings.php:557 templates/settings.php:674
+msgid "Parameters"
+msgstr "Parameter"
+
+#: templates/settings.php:678
+msgid "Parameter"
+msgstr "Parameter"
+
+#: templates/settings.php:679 templates/settings.php:1167
+msgid "Description"
+msgstr "Beschreibung"
+
+#: templates/settings.php:680
+msgid "Accepted Values"
+msgstr "Zulässige Werte"
+
+#: index.php:1464 widget.php:302
+msgid "Badge, Light Background"
+msgstr "Abzeichen, heller Hintergrund"
+
+#: index.php:1465 widget.php:303
+msgid "Badge, Light Background with Fonts"
+msgstr "Abzeichen, heller Hintergrund mit Schriftarten"
+
+#: index.php:1468 widget.php:306
+msgid "Badge, Dark Background"
+msgstr "Abzeichen, dunkler Hintergrund"
+
+#: index.php:1469 widget.php:307
+msgid "Badge, Dark Background with Fonts"
+msgstr "Abzeichen, dunkler Hintergrund mit Schriftarten"
+
+#: templates/settings.php:32 templates/settings.php:1483
+msgid "Advanced"
+msgstr "Erweiterte Optionen"
+
+#: index.php:5668 index.php:5669 index.php:5670 templates/settings.php:236
+#: templates/settings.php:508 templates/settings.php:1547
+#: templates/settings.php:1553
+msgid "None"
+msgstr "Keins"
+
+#: templates/settings.php:1476 templates/settings.php:1484
+#: templates/settings.php:1524
+msgid "Import"
+msgstr "Importieren"
+
+#: templates/settings.php:1523
+msgid "Process"
+msgstr "Verarbeiten"
+
+#: templates/settings.php:1525
+msgid "Clear"
+msgstr "Leeren"
+
+#: index.php:5661
+msgid "Remove"
+msgstr "Entfernen"
+
+#: index.php:5670
+msgid "Imported"
+msgstr "Importiert"
+
+#. Description of the plugin
+#: g-business-reviews-rating.php
+msgid "Shortcode and widget for Google reviews, current rating and direct links to allow customers to leave their own rating and review – data sourced from Google My Business"
+msgstr "Shortcode und Widget für Google-Rezensionen, aktuelle Bewertung und direkte Links, damit Kunden ihre eigene Rezension und Bewertung hinterlassen können – Daten aus Google My Business"
+
+#: templates/settings.php:578
+msgid "Google reviews (options)"
+msgstr "Google Rezensionen (Optionen)"
+
+#: templates/settings.php:623 templates/settings.php:683
+#: templates/settings.php:1169
+msgid "Links"
+msgstr "Links"
+
+#: templates/settings.php:630
+msgid "Google reviews link (options)"
+msgstr "Link zu Google Rezensionen (Optionen)"
+
+#: index.php:5644 templates/settings.php:648
+msgid "Text"
+msgstr "Text"
+
+#: templates/settings.php:1385
+msgid "Rating:"
+msgstr "Bewertung:"
+
+#: templates/widget.php:11
+msgid "Title:"
+msgstr "Titel:"
+
+#: templates/widget.php:17
+msgid "Theme:"
+msgstr "Thema:"
+
+#: templates/widget.php:30
+msgid "Review Limit:"
+msgstr "Rezensionsgrenze:"
+
+#: templates/widget.php:46
+msgid "Review Offset:"
+msgstr "Rezension Offset:"
+
+#: templates/widget.php:62
+msgid "Rating Range:"
+msgstr "Bewertungsbereich:"
+
+#: templates/widget.php:81
+msgid "Review Text Length Range:"
+msgstr "Rezensionstext Längenbereich:"
+
+#: templates/widget.php:86
+msgid "Review Excerpt Length:"
+msgstr "Rezension Auszug Länge:"
+
+#: templates/widget.php:90
+msgid "More Text:"
+msgstr "Mehr Text:"
+
+#: templates/widget.php:94
+msgid "Display business name"
+msgstr "Firmenname anzeigen"
+
+#: templates/widget.php:95
+msgid "Display icon"
+msgstr "Icon anzeigen"
+
+#: templates/widget.php:97
+msgid "Display rating"
+msgstr "Bewertung anzeigen"
+
+#: templates/widget.php:98
+msgid "Display rating stars"
+msgstr "Bewertungssterne anzeigen"
+
+#: templates/widget.php:99
+msgid "Display review count"
+msgstr "Anzahl der Rezensionen anzeigen"
+
+#: templates/widget.php:100
+msgid "Display reviews"
+msgstr "Rezensionen anzeigen"
+
+#: templates/widget.php:101
+msgid "Display review text"
+msgstr "Rezensionstext anzeigen"
+
+#: templates/widget.php:103
+msgid "Display view reviews button"
+msgstr "Schaltfläche \"Anzeigen von Rezensionen\" anzeigen"
+
+#: templates/widget.php:104
+msgid "Display write review button"
+msgstr "Schaltfläche \"Rezension schreiben\" anzeigen"
+
+#: templates/widget.php:105
+msgid "Display attribution"
+msgstr "Attribution anzeigen"
+
+#: templates/widget.php:107
+msgid "Animate rating stars"
+msgstr "Bewertungssterne animieren"
+
+#: templates/widget.php:108
+msgid "Style Sheet active"
+msgstr "Formatvorlage aktiv"
+
+#: index.php:2993 index.php:5618 templates/widget.php:110 widget.php:1073
+#: widget.php:1079 widget.php:1085 widget.php:1091
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: index.php:6443
+msgid "View Reviews"
+msgstr "Rezensionen ansehen"
+
+#: index.php:6453
+msgid "Write Review"
+msgstr "Rezension schreiben"
+
+#: widget.php:42
+msgid "Have your rating and a review showing in your sidebar"
+msgstr "Deine Bewertung und eine Rezension in der Seitenleiste anzeigen"
+
+#: widget.php:413
+msgid "Google Rating"
+msgstr "Google Bewertung"
+
+#: widget.php:1090
+msgid "No rating or review data found."
+msgstr "Keine Bewertungs- oder Rezensionsdaten gefunden."
+
+#: widget.php:1106
+msgid "Not reviews or ratings exist."
+msgstr "Es gibt keine Rezensionen oder Bewertungen."
+
+#: templates/widget.php:32
+msgid "%1$s reviews available"
+msgstr "%1$s Rezensionen verfügbar"
+
+#: widget.php:1072
+msgid "Please set your Google API Key and Place ID"
+msgstr "Bitte Google-API-Schlüssel und Place-ID festlegen"
+
+#: widget.php:1078
+msgid "Please set your Google API Key"
+msgstr "Bitte Google-API-Schlüssel festlegen"
+
+#: widget.php:1084
+msgid "Please set your Place ID"
+msgstr "Bitte Place-ID festlegen"
+
+#. Plugin URI of the plugin
+#: g-business-reviews-rating.php
+msgid "https://wordpress.org/plugins/g-business-reviews-rating/"
+msgstr "https://wordpress.org/plugins/g-business-reviews-rating/"
+
+#. Author of the plugin
+#: g-business-reviews-rating.php
+msgid "Noah Hearle, Design Extreme"
+msgstr "Noah Hearle, Design Extreme"
+
+#. Author URI of the plugin
+#: g-business-reviews-rating.php
+msgid "https://designextreme.com/wordpress/"
+msgstr "https://designextreme.com/wordpress/"
+
+#: templates/settings.php:10 templates/settings.php:542
+#: templates/widget.php:110
+msgid "Demo Mode"
+msgstr "Demo-Modus"
+
+#: templates/settings.php:20 templates/settings.php:26
+#: templates/settings.php:562
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: index.php:5617 templates/settings.php:23 templates/settings.php:437
+#: templates/settings.php:567 templates/settings.php:682
+#: templates/settings.php:1168 templates/settings.php:1384
+#: templates/widget.php:110
+msgid "Reviews"
+msgstr "Rezensionen"
+
+#: templates/settings.php:29 templates/settings.php:1458
+msgid "Retrieved Data"
+msgstr "Abgerufene Daten"
+
+#: index.php:5619 templates/settings.php:34 templates/settings.php:1603
+#: templates/settings.php:1612
+msgid "About"
+msgstr "Über"
+
+#: templates/settings.php:45 templates/settings.php:146
+#: templates/settings.php:392
+msgid "Google Credentials"
+msgstr "Google-Anmeldeinformationen"
+
+#: templates/settings.php:142 templates/settings.php:150
+msgid "Reviews and Rating"
+msgstr "Rezensionen und Bewertung"
+
+#: templates/settings.php:151
+msgid "The general settings for your reviews and rating elements. Shortcode parameters will take precedence."
+msgstr "Die allgemeinen Einstellungen für Rezensionen und Bewertungselemente. Shortcode-Parameter haben Vorrang."
+
+#: templates/settings.php:170
+msgid "Review Limit"
+msgstr "Rezensionen eingrenzen"
+
+#: templates/settings.php:202
+msgid "Rating Range"
+msgstr "Bewertungsbereich"
+
+#: templates/settings.php:217
+msgid "Review Text Length Range"
+msgstr "Textlänge"
+
+#: templates/settings.php:224
+msgid "Review Excerpt Length"
+msgstr "Zeichenanzahl für Kurzfassung"
+
+#: templates/settings.php:157 templates/settings.php:681
+#: templates/widget.php:19
+msgid "Default"
+msgstr "Standard"
+
+#: index.php:6153 templates/settings.php:243 templates/widget.php:14
+msgid "Icon"
+msgstr "Icon"
+
+#: templates/settings.php:544
+msgid "Enable Demo Mode with dummy data"
+msgstr "Aktiviere den Demo-Modus mit Dummy-Daten"
+
+#: templates/settings.php:570
+msgid "Google reviews"
+msgstr "Google Rezensionen"
+
+#: templates/settings.php:574
+msgid "Google reviews (IDs)"
+msgstr "Google Rezensionen (IDs)"
+
+#: templates/settings.php:626
+msgid "Google reviews link"
+msgstr "Link zu Google Rezensionen"
+
+#: templates/settings.php:627 templates/settings.php:631
+#: templates/settings.php:634 templates/settings.php:637
+msgid "Our Reviews on Google"
+msgstr "Unsere Google Rezensionen"
+
+#: templates/settings.php:640
+msgid "Write a Google review link"
+msgstr "Link zu Schreibe eine Google Rezension"
+
+#: templates/settings.php:641
+msgid "Leave Your Review on Google"
+msgstr "Hinterlasse deine Bewertung bei Google"
+
+#: templates/settings.php:644
+msgid "Google Maps link"
+msgstr "Link zu Google Maps"
+
+#: templates/settings.php:645
+msgid "View Location on Google Maps"
+msgstr "Standort bei Google Maps ansehen"
+
+#: templates/settings.php:651
+msgid "Google rating"
+msgstr "Google Bewertung"
+
+#: templates/settings.php:655
+msgid "Google review count"
+msgstr "Anzahl der Google Rezensionen"
+
+#: templates/settings.php:659
+msgid "Google reviews URL"
+msgstr "Google Rezensionen URL"
+
+#: templates/settings.php:663
+msgid "Write a Google review URL"
+msgstr "Schreibe eine Google Rezension URL"
+
+#: templates/settings.php:667
+msgid "Google Maps URL"
+msgstr "Google Maps URL"
+
+#: index.php:5923 templates/settings.php:850 templates/settings.php:1385
+msgid "review"
+msgstr "Rezension"
+
+#: index.php:5923 templates/settings.php:850 templates/settings.php:1385
+msgid "reviews"
+msgstr "Rezensionen"
+
+#: index.php:5924 templates/settings.php:934 widget.php:423
+msgid "More"
+msgstr "Mehr"
+
+#: templates/settings.php:1451
+msgid "Please note: the total number of reviews listed at Google will not always match the number of reviews that are retrievable through its API."
+msgstr "Bitte beachte: Die Gesamtzahl der bei Google aufgeführten Rezensionen stimmt nicht immer mit der Anzahl der Rezensionen überein, die über die API abrufbar sind."
+
+#: index.php:3010 templates/settings.php:1605 templates/settings.php:1647
+msgid "Support"
+msgstr "Support"
+
+#: templates/settings.php:1649
+msgid "View Support Forum"
+msgstr "Support-Forum anzeigen"
+
+#: templates/settings.php:1608 templates/settings.php:1662
+msgid "Donate"
+msgstr "Spenden"
+
+#: templates/settings.php:1664
+msgid "Donate To This Plugin"
+msgstr "Für dieses Plugin spenden"
+
+#: index.php:1368 widget.php:206
+msgid "Light Background"
+msgstr "Heller Hintergrund"
+
+#: index.php:1369 widget.php:207
+msgid "Light Background with Fonts"
+msgstr "Heller Hintergrund mit Schriftarten"
+
+#: index.php:1384 widget.php:222
+msgid "Dark Background"
+msgstr "Dunkler Hintergrund"
+
+#: index.php:1385 widget.php:223
+msgid "Dark Background with Fonts"
+msgstr "Dunkler Hintergrund mit Schriftarten"
+
+#: index.php:651
+msgid "Never Synchronize"
+msgstr "Nie synchronisieren"
+
+#: index.php:653
+msgid "Synchronize Daily"
+msgstr "Täglich synchronisieren"
+
+#: index.php:655
+msgid "Synchronize Hourly"
+msgstr "Stündlich synchronisieren"
+
+#: index.php:5643 templates/settings.php:436
+msgid "Rating"
+msgstr "Bewertung"
+
+#: index.php:5645
+msgid "Language"
+msgstr "Sprache"
+
+#: templates/settings.php:49 templates/settings.php:395
+msgid "Google API Key"
+msgstr "Google-API-Schlüssel"
+
+#: templates/settings.php:76 templates/settings.php:421
+msgid "Google Place ID"
+msgid_plural "Google Places"
+msgstr[0] "Google Place-ID"
+msgstr[1] ""
+
+#: templates/settings.php:154
+msgid "Theme"
+msgstr "Theme"
