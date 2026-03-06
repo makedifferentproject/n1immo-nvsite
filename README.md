@@ -205,8 +205,4 @@ Le déploiement sur serveur (FTP / CI) est géré par le responsable :
 
 En cas de doute (conflits, push refusé, fichiers interdits détectés) :
 ➡️ contacter le responsable du dépôt.
-
-```
-
-Tu veux que je t’ajoute **une section “déploiement FTP automatique via GitHub Actions”** (dev → serveur dev, main → prod) dans ce README ?
-```
+ 
