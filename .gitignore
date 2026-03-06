@@ -1,0 +1,7 @@
+# WordPress
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups/
+wp-content/wflogs/
+*.log
